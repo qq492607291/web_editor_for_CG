@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2019/06/28" author="e.World Technology Ltd.">
+  <project id="{5DAF7451-EE21-4ABF-A979-870614CA82FC}" file="E:\KS1021\exe\USBWebserver_v8.6\root\tmp_test\cg_db_web_editor\local_misc\ks_codemaker.pmp" name="ks_codemaker" product="PHPMaker" version="14.0" datetime="2019/06/28 16:48:07" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;">
+    <table id="basic_knapsack" name="basic_knapsack" caption="basic knapsack" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="basic_user" name="basic_user" caption="basic user" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_composite" name="config_composite" caption="合成" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_decomposition" name="config_decomposition" caption="分解" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_goods" name="config_goods" caption="物品" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_help" name="config_help" caption="config help" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_map" name="config_map" caption="地图" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_monster" name="config_monster" caption="config monster" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_occupation" name="config_occupation" caption="职业" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_privateshops" name="config_privateshops" caption="config privateshops" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_ranks" name="config_ranks" caption="config ranks" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_shop" name="config_shop" caption="config shop" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_skills" name="config_skills" caption="config skills" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_special" name="config_special" caption="config special" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_suit" name="config_suit" caption="config suit" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_task" name="config_task" caption="config task" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="config_union" name="config_union" caption="config union" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="customattributes_register" name="customattributes_register" caption="customattributes register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="dynamicattributes_register" name="dynamicattributes_register" caption="dynamicattributes register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="editor_attribute_adjustment" name="editor_attribute_adjustment" caption="editor attribute adjustment" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="equip_combined" name="equip_combined" caption="equip combined" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="equip_es_info" name="equip_es_info" caption="equip es info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="equip_es_register" name="equip_es_register" caption="equip es register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="equip_register" name="equip_register" caption="equip register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_addattr_log" name="ext_addattr_log" caption="ext addattr log" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_awake_info" name="ext_awake_info" caption="ext awake info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_bountytask_info" name="ext_bountytask_info" caption="ext bountytask info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_bountytask_log" name="ext_bountytask_log" caption="ext bountytask log" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_building" name="ext_building" caption="ext building" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_collection_function" name="ext_collection_function" caption="ext collection function" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_collection_info" name="ext_collection_info" caption="ext collection info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_customvariable_info" name="ext_customvariable_info" caption="ext customvariable info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_goodsextattr" name="ext_goodsextattr" caption="ext goodsextattr" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_npc_function" name="ext_npc_function" caption="ext npc function" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_npc_info" name="ext_npc_info" caption="ext npc info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_npc_shop_hzxyx" name="ext_npc_shop_hzxyx" caption="ext npc shop hzxyx" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_sam_base_info" name="ext_sam_base_info" caption="ext sam base info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_sam_user_info" name="ext_sam_user_info" caption="ext sam user info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_sell" name="ext_sell" caption="ext sell" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_shdic_info" name="ext_shdic_info" caption="ext shdic info" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_shdic_log" name="ext_shdic_log" caption="ext shdic log" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_simplecmd" name="ext_simplecmd" caption="ext simplecmd" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_unioncity" name="ext_unioncity" caption="ext unioncity" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_zbqh_dj" name="ext_zbqh_dj" caption="ext zbqh dj" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ext_zbqh_xx" name="ext_zbqh_xx" caption="ext zbqh xx" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="global" name="global" caption="global" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="image" name="image" caption="image" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="javascript_src" name="javascript_src" caption="javascript src" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="ksdb_user" name="ksdb_user" caption="ksdb user" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="messagetemplate" name="messagetemplate" caption="messagetemplate" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="monster_model" name="monster_model" caption="monster model" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="shared_data" name="shared_data" caption="shared data" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="shared_permissions" name="shared_permissions" caption="shared permissions" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="shield_register" name="shield_register" caption="shield register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="skill_register" name="skill_register" caption="skill register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="skillcontinued_register" name="skillcontinued_register" caption="skillcontinued register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="system_uattributes" name="system_uattributes" caption="system uattributes" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="task_register" name="task_register" caption="task register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="unioncontribution_register" name="unioncontribution_register" caption="unioncontribution register" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+  </project>
+</configuration>

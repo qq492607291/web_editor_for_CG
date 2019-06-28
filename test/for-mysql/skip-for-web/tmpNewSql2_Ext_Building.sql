@@ -1,0 +1,4 @@
+
+INSERT INTO Ext_Building(acl_id,Name, unionName, LV, MAX_HP, HP, Location, Function, Dialog, Introduce, "Trigger", TR_Limit)VALUES (110,'B2D6BFE2', '4E696C', '4E696C', 30, 30, '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D');
+INSERT INTO Ext_Building(acl_id,Name, unionName, LV, MAX_HP, HP, Location, Function, Dialog, Introduce, "Trigger", TR_Limit)VALUES (110,'B1F8C6F7CCC3', '4E696C', '4E696C', 30, 30, '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D');
+INSERT INTO Ext_Building(acl_id,Name, unionName, LV, MAX_HP, HP, Location, Function, Dialog, Introduce, "Trigger", TR_Limit)VALUES (110,'B3C7C7BD', '4E696C', '4E696C', 30, 30, '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D', '5B4E554C4C5D');

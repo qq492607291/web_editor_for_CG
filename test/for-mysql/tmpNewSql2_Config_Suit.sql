@@ -1,0 +1,2 @@
+
+INSERT INTO Config_Suit(acl_id,Name, Add_HP, Add_MP, Add_Defense, Add_Magic, Add_AD, Add_AP, Add_Hit, Add_Dodge, Add_Crit, Add_AbsorbHP, Add_ADPTV, Add_ADPTR, Add_APPTR, Add_APPTV, Add_ImmuneDamage, Special_Type, Special_Value)VALUES (110,'C8F6B5A9B7A8', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '5B4E554C4C5D', '30');

@@ -1,0 +1,2910 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2019/6/28" version="14.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+  <!-- 
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="actiondeleted" value="Deleted" />
+    <phrase id="actioninserted" value="Inserted" />
+    <phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)" />
+    <phrase id="actionupdated" value="Updated" />
+    <phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)" />
+    <phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)" />
+    <phrase id="activateaccount" value="Your account is activated" />
+    <phrase id="activatefailed" value="Activation failed" />
+    <phrase id="add" value="Add" />
+    <phrase id="addblankrow" value="Add Blank Row" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="addbtn" value="Add" client="1" />
+    <!-- v2018 -->
+    <phrase id="addlink" value="Add" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="addmasterdetaillink" value="Master/Detail Add" class="icon-md-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="addsuccess" value="Add succeeded" />
+    <phrase id="advancedsearch" value="Advanced Search" />
+    <!-- v11 -->
+    <phrase id="advancedsearchbtn" value="Advanced Search" class="icon-advanced-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="allrecords" value="All" />
+    <phrase id="allword" value="All words" />
+    <phrase id="alwaysask" value="Always ask for my user name and password" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="anyword" value="Any word" />
+    <phrase id="audittrailautologin" value="autologin" />
+    <phrase id="audittrailfailedattempt" value="failed attempt: %n" />
+    <phrase id="audittrailuserloggedin" value="user already logged in" />
+    <phrase id="audittrailpasswordexpired" value="password expired" />
+    <phrase id="audittraillogin" value="login" />
+    <phrase id="audittraillogout" value="logout" />
+    <phrase id="autologin" value="Auto login until I logout explicitly" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="autologinfailed" value="Auto login failed" />
+    <!-- v2018 -->
+    <phrase id="average" value="Average" />
+    <phrase id="backtolist" value="Back to List" />
+    <phrase id="backtologin" value="Back to login page" />
+    <phrase id="backtomasterrecordpage" value="Back to master table" />
+    <phrase id="batchdeletebegin" value="*** Batch delete begin ***" />
+    <phrase id="batchdeleterollback" value="*** Batch delete rollback ***" />
+    <phrase id="batchdeletesuccess" value="*** Batch delete successful ***" />
+    <phrase id="batchinsertbegin" value="*** Batch insert begin ***" />
+    <phrase id="batchinsertrollback" value="*** Batch insert rollback ***" />
+    <phrase id="batchinsertsuccess" value="*** Batch insert successful ***" />
+    <phrase id="batchupdatebegin" value="*** Batch update begin ***" />
+    <phrase id="batchupdaterollback" value="*** Batch update rollback ***" />
+    <phrase id="batchupdatesuccess" value="*** Batch update successful ***" />
+    <phrase id="buttonactions" value="Actions" class="icon-options ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonaddedit" value="Add/Edit" class="icon-addedit ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonexport" value="Export" class="icon-export ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonlistoptions" value="Options" class="icon-options ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonsearch" value="Search" class="icon-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="cancelbtn" value="Cancel" client="1" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancel" class="glyphicon glyphicon-remove ewIcon" />
+    <!-- v11 -->
+    <phrase id="changepwd" value="Change Password" />
+    <phrase id="changepwdpage" value="Change Password" />
+    <phrase id="changepwdbtn" value="Change" />
+    <phrase id="choosefilebtn" value="Choose..." />
+    <!-- v11 -->
+    <phrase id="choosefile" value="Choose file" />
+    <!-- v11 -->
+    <phrase id="choosefiles" value="Choose files" />
+    <!-- v11 -->
+    <phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1" />
+    <!-- v12 -->
+    <phrase id="closebtn" value="Close" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirm" value="Confirm" />
+    <phrase id="confirmbtn" value="Confirm" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="Do you want to cancel?" client="1" />
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="Confirm Password" />
+    <phrase id="conflictcancellink" value="Cancel" />
+    <phrase id="lightboxtitle" value=" " client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="image {current} of {total}" client="1" />
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="previous" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="next" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="close" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="This content failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="This image failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="copy" value="Copy" />
+    <phrase id="copylink" value="Copy" class="icon-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="count" value="Count" />
+    <phrase id="countselected" value="%s selected" client="1" />
+    <!-- v12 -->
+    <phrase id="currentpassword" value="Current password: " client="1" />
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="'%s' completed" />
+    <phrase id="customactioncancelled" value="'%s' cancelled" />
+    <phrase id="customactionfailed" value="'%s' failed" />
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="'%s' not allowed" />
+    <!-- v12 -->
+    <phrase id="customview" value="CUSTOM VIEW" />
+    <phrase id="delete" value="Delete" />
+    <phrase id="deletebtn" value="Delete" />
+    <phrase id="deletecancelled" value="Delete cancelled" />
+    <phrase id="deleteconfirmmsg" value="Are you sure you want to delete?" client="1" />
+    <phrase id="deletefilter" value="Delete filter" />
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="Delete filter %s?" client="1" />
+    <!-- v12 -->
+    <phrase id="deletelink" value="Delete" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="deleteselectedlink" value="Delete Selected Records" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="deletesuccess" value="Delete succeeded" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span class='label label-info ewDetailCount%c'&gt;%c&lt;/span&gt;" />
+    <!-- v2018 -->
+    <phrase id="masterdetailcopylink" value="Master/Detail Copy" class="icon-md-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="Master/Detail Edit" class="icon-md-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="Detail List" class="icon-table ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetailviewlink" value="Master/Detail View" class="icon-md-view ewIcon" />
+    <!-- v11 -->
+    <phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'" />
+    <phrase id="dupkey" value="Duplicate primary key: '%f'" />
+    <phrase id="edit" value="Edit" />
+    <phrase id="editbtn" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="editlink" value="Edit" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="enterfiltername" value="Enter filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="Please enter new password" client="1" />
+    <phrase id="enteroldpassword" value="Please enter old password" client="1" />
+    <phrase id="enterpassword" value="Please enter password" client="1" />
+    <phrase id="enterpwd" value="Please enter password" client="1" />
+    <phrase id="enterrequiredfield" value="Please enter required field - %s" />
+    <!-- v11 -->
+    <phrase id="entersearchcriteria" value="Please enter search criteria" />
+    <phrase id="enterusername" value="Please enter username" client="1" />
+    <phrase id="entervalidatecode" value="Enter the validation code shown" client="1" />
+    <!-- v11 -->
+    <phrase id="entersenderemail" value="Please enter sender email" client="1" />
+    <phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1" />
+    <phrase id="enterrecipientemail" value="Please enter recipient email" client="1" />
+    <phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1" />
+    <phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1" />
+    <phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1" />
+    <phrase id="entersubject" value="Please enter subject" client="1" />
+    <phrase id="emailformsender" value="From" />
+    <phrase id="emailformrecipient" value="To" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Subject" />
+    <phrase id="emailformmessage" value="Message" />
+    <phrase id="emailformcontenttype" value="Send as" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="enteruid" value="Please enter user ID" client="1" />
+    <phrase id="entervalidemail" value="Please enter valid Email Address" client="1" />
+    <phrase id="exactphrase" value="Exact phrase" />
+    <phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes" />
+    <phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later" />
+    <phrase id="exporting" value="Exporting, please wait..." client="1" />
+    <!-- v2018 -->
+    <phrase id="exporttocsv" value="Export to CSV" class="icon-csv ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttocsvtext" value="CSV" />
+    <phrase id="exporttoemail" value="Email" class="icon-email ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoemailtext" value="Email" client="1" />
+    <phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoexceltext" value="Excel" />
+    <phrase id="exporttohtml" value="Export to HTML" class="icon-html ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttohtmltext" value="HTML" />
+    <phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttopdftext" value="PDF" />
+    <phrase id="exporttoword" value="Export to Word" class="icon-word ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttowordtext" value="Word" />
+    <phrase id="exporttoxml" value="Export to XML" class="icon-xml ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoxmltext" value="XML" />
+    <phrase id="failedtoexport" value="Failed to Export" client="1" />
+    <!-- v2018 -->
+    <phrase id="failedtosendmail" value="Failed to send mail. " />
+    <phrase id="fieldname" value="Field Name" />
+    <phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;" />
+    <phrase id="filenotfound" value="File not found" />
+    <!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+    <phrase id="filter" value="Filter" />
+    <!-- v12 -->
+    <phrase id="filtername" value="Filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="filters" value="Filters" class="icon-filter ewIcon" />
+    <!-- v12 -->
+    <phrase id="overwritebtn" value="Overwrite" client="1" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="Overwrite" />
+    <phrase id="forgotpwd" value="Forgot Password" />
+    <phrase id="generatepassword" value="Generate password" class="glyphicon glyphicon-flash ewIcon" />
+    <!-- v12 -->
+    <phrase id="goback" value="Go Back" />
+    <phrase id="gridaddcancelled" value="Grid add cancelled" />
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="Grid Add" class="icon-grid-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="Cancel" class="glyphicon glyphicon-remove ewIcon" />
+    <!-- v11 -->
+    <phrase id="grideditcancelled" value="Grid edit cancelled" />
+    <!-- v11 -->
+    <phrase id="grideditlink" value="Grid Edit" class="icon-grid-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="Insert" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridsavelink" value="Save" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="highlight" value="Highlight" />
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="Highlight" class="icon-highlight ewIcon" />
+    <!-- v11 -->
+    <phrase id="homepage" value="Home" class="glyphicon glyphicon-home ewIcon" />
+    <!-- v11 -->
+    <phrase id="incorrectcreditcard" value="Incorrect credit card number" />
+    <phrase id="incorrectdate" value="Incorrect date (%s)" />
+    <phrase id="incorrectdateymd" value="Incorrect date (yyyy%smm%sdd)" />
+    <phrase id="incorrectdatemdy" value="Incorrect date (mm%sdd%syyyy)" />
+    <phrase id="incorrectdatedmy" value="Incorrect date (dd%smm%syyyy)" />
+    <phrase id="incorrectshortdateymd" value="Incorrect date (yy%smm%sdd)" />
+    <phrase id="incorrectshortdatemdy" value="Incorrect date (mm%sdd%syy)" />
+    <phrase id="incorrectshortdatedmy" value="Incorrect date (dd%smm%syy)" />
+    <phrase id="incorrectemail" value="Incorrect email" client="1" />
+    <phrase id="incorrectfield" value="Incorrect field" client="1" />
+    <phrase id="incorrectfloat" value="Incorrect floating point number" client="1" />
+    <phrase id="incorrectguid" value="Incorrect GUID" client="1" />
+    <phrase id="incorrectinteger" value="Incorrect integer" client="1" />
+    <phrase id="incorrectphone" value="Incorrect phone number" client="1" />
+    <phrase id="incorrectregexp" value="Regular expression not matched" client="1" />
+    <phrase id="incorrectrange" value="Number must be between %1 and %2" client="1" />
+    <phrase id="incorrectssn" value="Incorrect social security number" client="1" />
+    <phrase id="incorrecttime" value="Incorrect time (hh%smm%sss)" />
+    <phrase id="incorrectzip" value="Incorrect ZIP code" client="1" />
+    <phrase id="inlineaddlink" value="Inline Add" class="icon-inline-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="Inline Copy" class="icon-inline-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="Inline Edit" class="icon-inline-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="Insert cancelled" />
+    <phrase id="insertfailed" value="Insert failed" client="1" />
+    <phrase id="insertlink" value="Insert" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="insertsuccess" value="Insert succeeded" />
+    <phrase id="invalidemail" value="Invalid Email" />
+    <phrase id="invalidfield" value="Invalid Field" />
+    <phrase id="invalidkeyvalue" value="Invalid key value" />
+    <phrase id="invalidrecord" value="Invalid Record! Key is null" client="1" />
+    <phrase id="invalidpostrequest" value="Invalid post request" />
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="Invalid Parameter" />
+    <phrase id="invalidpassword" value="Invalid Password" />
+    <phrase id="invalidnewpassword" value="Invalid New Password" />
+    <phrase id="invaliduidpwd" value="Incorrect user name or password" />
+    <phrase id="keep" value="Keep" />
+    <phrase id="language" value="Language" />
+    <phrase id="listactionbutton" value="Actions" class="icon-user ewIcon" />
+    <!-- v12 -->
+    <phrase id="loading" value="Loading..." client="1" />
+    <phrase id="login" value="Login" />
+    <phrase id="logincancelled" value="Login cancelled" />
+    <phrase id="loginfacebook" value="Login with Facebook" />
+    <!-- v2018 -->
+    <phrase id="loginfailed" value="Login with %p failed" />
+    <!-- v2018 -->
+    <phrase id="logingoogle" value="Login with Google" />
+    <!-- v2018 -->
+    <phrase id="loginoptions" value="Options" />
+    <!-- v11 -->
+    <phrase id="loginor" value="- OR -" />
+    <!-- v2018 -->
+    <phrase id="loginpage" value="Login" />
+    <phrase id="logout" value="Logout" />
+    <phrase id="lookuplink" value="Lookup - %s" class="glyphicon glyphicon-search ewIcon" />
+    <!-- v2017 -->
+    <phrase id="masterrecord" value="Master Record: " />
+    <phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1" />
+    <phrase id="messageok" value="OK" client="1" />
+    <phrase id="midnight" value="midnight" />
+    <!-- v2017 -->
+    <phrase id="mismatchpassword" value="Mismatch Password" client="1" />
+    <phrase id="missinglookuptablename" value="Missing lookup table name" />
+    <phrase id="missingdisplayfieldname" value="Missing display field name" />
+    <phrase id="missingdisplayfieldvalue" value="Missing display field value" />
+    <phrase id="missinguserlevelid" value="Missing User Level ID" />
+    <phrase id="missinguserlevelname" value="Missing User Level name" />
+    <phrase id="mobilemenu" value="Menu" />
+    <phrase id="more" value="More" client="1" />
+    <!-- v2018 -->
+    <phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ewIcon" />
+    <!-- v11 -->
+    <phrase id="new" value="New" />
+    <phrase id="newpassword" value="New Password" />
+    <phrase id="newvalue" value="New value" />
+    <!-- v12 -->
+    <phrase id="next" value="Next" client="1" />
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="No records to be added" client="1" />
+    <phrase id="nofieldselected" value="No field selected for update" client="1" />
+    <phrase id="nopermission" value="You do not have permission to access %s." />
+    <!-- v12.0.6 -->
+    <phrase id="noaddpermission" value="You do not have permission to add the record." />
+    <phrase id="nodeletepermission" value="You do not have permission to delete the record." />
+    <phrase id="noeditpermission" value="You do not have permission to edit the record." />
+    <phrase id="noon" value="noon" />
+    <!-- v2017 -->
+    <phrase id="norecord" value="No records found" client="1" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="No record found for key = " />
+    <phrase id="norecordselected" value="No records selected" client="1" />
+    <phrase id="notablegenerated" value="No tables generated" />
+    <phrase id="nouserlevel" value="No user level settings." />
+    <phrase id="of" value="of" client="1" />
+    <!-- v2017 -->
+    <phrase id="old" value="Old" />
+    <phrase id="oldpassword" value="Old Password" />
+    <phrase id="optionalreadyexist" value="Option already exists" />
+    <phrase id="page" value="Page" client="1" />
+    <!-- v2017 -->
+    <phrase id="pagerfirst" value="First" />
+    <phrase id="pagerlast" value="Last" />
+    <phrase id="pagernext" value="Next" />
+    <phrase id="pagerprevious" value="Previous" />
+    <phrase id="password" value="Password" />
+    <phrase id="passwordmask" value="********" />
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="Password Request" />
+    <phrase id="passwordchanged" value="Password Changed" />
+    <phrase id="passwordexpired" value="Password Expired. Please change password." />
+    <phrase id="passwordstrength" value="Strength: %p" client="1" />
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="Your password is too simple" client="1" />
+    <!-- v12 -->
+    <phrase id="permission" value="Permissions" class="icon-user ewIcon" />
+    <!-- v11 -->
+    <phrase id="permissionaddcopy" value="Add/Copy" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissiondelete" value="Delete" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionedit" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlistsearchview" value="List/Search/View" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlist" value="List" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionsearch" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionview" value="View" client="1" />
+    <!-- v2018 -->
+    <phrase id="pickdate" value="Pick a date" />
+    <phrase id="pleaseselect" value="Please select" client="1" />
+    <!-- v12 -->
+    <phrase id="pleasewait" value="Please wait..." client="1" />
+    <phrase id="primarykeyunspecified" value="Primary key unspecified" />
+    <phrase id="printerfriendly" value="Printer Friendly" class="icon-print ewIcon" />
+    <!-- v11 -->
+    <phrase id="printerfriendlytext" value="Printer Friendly" />
+    <phrase id="prev" value="Prev" client="1" />
+    <!-- v12 -->
+    <phrase id="pwdemailsent" value="Password sent to your email" />
+    <phrase id="resetpwdemailsent" value="The reset password email has been sent to you" />
+    <phrase id="quicksearch" value="Quick Search" />
+    <phrase id="quicksearchbtn" value="Search" />
+    <phrase id="quicksearchauto" value="Auto" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="All keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="All" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="Any keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="Any" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="Exact match" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="Exact" client="1" />
+    <!-- v11 -->
+    <phrase id="record" value="Records" client="1" />
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data." />
+    <phrase id="recorddeleted" value="record(s) deleted" />
+    <phrase id="recordinserted" value="record(s) inserted" />
+    <phrase id="recordupdated" value="record(s) updated" />
+    <phrase id="recordsperpage" value="Page size" client="1" />
+    <!-- v2017 -->
+    <phrase id="register" value="Register" />
+    <phrase id="registerbtn" value="Register" />
+    <phrase id="registersuccess" value="Registration succeeded" />
+    <phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account." />
+    <phrase id="registerpage" value="Registration" />
+    <phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'" />
+    <phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'" />
+    <phrase id="reloadbtn" value="Reload" client="1" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Reload" />
+    <phrase id="rememberme" value="Remember me" />
+    <phrase id="remove" value="Remove" />
+    <phrase id="replace" value="Replace" />
+    <phrase id="report" value="Report" />
+    <phrase id="requestpwd" value="Request Password" />
+    <!-- v2018 -->
+    <phrase id="reset" value="Reset" />
+    <phrase id="resendregisteremailbtn" value="Resend registration email" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserbtn" value="Reset concurrent user session" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="Reset login retry count" />
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="Reset" class="icon-reset-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="resetsearch" value="Reset" />
+    <phrase id="rptavg" value="Average" />
+    <phrase id="rptdtlrec" value="Detail Records" />
+    <phrase id="rptgrandtotal" value="Grand Total" />
+    <phrase id="rptmax" value="Maximum" />
+    <phrase id="rptmin" value="Minimum" />
+    <phrase id="rptsum" value="Sum" />
+    <phrase id="rptsumhead" value="Summary for" />
+    <phrase id="savebtn" value="Save" client="1" />
+    <!-- v2018 -->
+    <phrase id="savecurrentfilter" value="Save current filter" />
+    <!-- v12 -->
+    <phrase id="saveusername" value="Save my user name" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="search" value="Search" client="1" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="searchlink" value="Search" class="glyphicon glyphicon-search ewIcon" />
+    <!-- v2018 -->
+    <phrase id="searchpanel" value="Search Panel" />
+    <!-- v11 -->
+    <phrase id="selectbtn" value="Select" client="1" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Send" />
+    <phrase id="sendemailsuccess" value="Email sent successfully" client="1" />
+    <phrase id="sendpwd" value="Send" />
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="An error occured while communicating to the server." />
+    <!-- v2017 -->
+    <phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1" />
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="Your session has expired." client="1" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="Set password expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired" />
+    <!-- v12 -->
+    <phrase id="showallbtn" value="Show all" class="icon-reset-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="showall" value="Show all" />
+    <!-- v11 -->
+    <phrase id="srchlegend" value="" />
+    <phrase id="table" value="TABLE" />
+    <phrase id="tbltypetable" value="Table: " />
+    <phrase id="tbltypeview" value="View: " />
+    <phrase id="tbltypecustomview" value="Custom View: " />
+    <phrase id="tbltypereport" value="Report: " />
+    <phrase id="to" value="to" />
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)." />
+    <phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f" />
+    <phrase id="update" value="Update" />
+    <phrase id="updatebtn" value="Update" client="1" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="Update cancelled" />
+    <phrase id="updatefailed" value="Update failed" />
+    <phrase id="updatelink" value="Update" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="updateselectall" value="Select all" />
+    <!-- v11 -->
+    <phrase id="updateselectedlink" value="Update Selected Records" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="updatesuccess" value="Update succeeded" />
+    <phrase id="uploading" value="Uploading..." client="1" />
+    <phrase id="uploadstart" value="Start" client="1" />
+    <phrase id="uploadcancel" value="Cancel" client="1" />
+    <phrase id="uploaddelete" value="Delete" client="1" />
+    <phrase id="uploadoverwrite" value="Overwrite old file?" client="1" />
+    <phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini" />
+    <phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form" />
+    <phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded" />
+    <phrase id="uploaderrmsg4" value="No file was uploaded" />
+    <phrase id="uploaderrmsg6" value="Missing a temporary folder" />
+    <phrase id="uploaderrmsg7" value="Failed to write file to disk" />
+    <phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload" />
+    <phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini" />
+    <phrase id="uploaderrmsgmaxfilesize" value="File is too big" client="1" />
+    <phrase id="uploaderrmsgminfilesize" value="File is too small" client="1" />
+    <phrase id="uploaderrmsgacceptfiletypes" value="File type not allowed" client="1" />
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1" />
+    <phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width" />
+    <phrase id="uploaderrmsgminwidth" value="Image requires a minimum width" />
+    <phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height" />
+    <phrase id="uploaderrmsgminheight" value="Image requires a minimum height" />
+    <phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1" />
+    <phrase id="useradministrator" value="Administrator" client="1" />
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anonymous" client="1" />
+    <!-- v12 -->
+    <phrase id="userdefault" value="Default" client="1" />
+    <!-- v12 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="User already exists" />
+    <phrase id="userlevel" value="User Level: " />
+    <phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1" />
+    <phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1" />
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="User Level Permissions" />
+    <phrase id="userlevelidinteger" value="User Level ID must be integer" client="1" />
+    <phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1" />
+    <phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1" />
+    <phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1" />
+    <phrase id="userloggedin" value="User '%u' already logged in" />
+    <phrase id="username" value="User Name" />
+    <phrase id="usernotfound" value="User '%u' not found" />
+    <!-- v2018 -->
+    <phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again" />
+    <phrase id="valuenotexist" value="Value does not exist" client="1" />
+    <!-- v11 -->
+    <phrase id="view" value="View" />
+    <phrase id="viewimagegallery" value="Click to view image" />
+    <!-- v12 -->
+    <phrase id="viewlink" value="View" class="icon-view ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="Add" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagecopylink" value="Copy" class="icon-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagedeletelink" value="Delete" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Edit" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="wrongfiletype" value="File type is not allowed." client="1" />
+    <phrase id="tableorview" value="Tables" client="1" />
+    <!-- v2018 -->
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v12 -->
+    <phrase id="equal" value="=" />
+    <!-- v12 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contains" />
+    <phrase id="not like" value="does not contain" />
+    <!-- v11.0.3 -->
+    <phrase id="starts with" value="starts with" />
+    <phrase id="ends with" value="ends with" />
+    <phrase id="is null" value="is null" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="between" />
+    <phrase id="and" value="and" />
+    <phrase id="or" value="or" />
+    <phrase id="am" value="AM" />
+    <!-- v2017 -->
+    <phrase id="pm" value="PM" />
+    <!-- v2017 -->
+  </global>
+  <project>
+    <phrase id="footertext" value="&amp;copy;2017 e.World Technology Ltd. All rights reserved." />
+    <menu id="1">
+      <phrase id="menutext" value="basic knapsack" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="basic user" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="职业" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="物品" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="地图" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="config monster" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="config task" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="config skills" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="合成" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="分解" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="config help" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="config privateshops" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="config ranks" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="config shop" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="config special" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="config suit" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="config union" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="customattributes register" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="dynamicattributes register" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="editor attribute adjustment" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="equip combined" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="equip es info" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="equip es register" />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="equip register" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="ext addattr log" />
+    </menu>
+    <menu id="26">
+      <phrase id="menutext" value="ext awake info" />
+    </menu>
+    <menu id="27">
+      <phrase id="menutext" value="ext bountytask info" />
+    </menu>
+    <menu id="28">
+      <phrase id="menutext" value="ext bountytask log" />
+    </menu>
+    <menu id="29">
+      <phrase id="menutext" value="ext building" />
+    </menu>
+    <menu id="30">
+      <phrase id="menutext" value="ext collection function" />
+    </menu>
+    <menu id="31">
+      <phrase id="menutext" value="ext collection info" />
+    </menu>
+    <menu id="32">
+      <phrase id="menutext" value="ext customvariable info" />
+    </menu>
+    <menu id="33">
+      <phrase id="menutext" value="ext goodsextattr" />
+    </menu>
+    <menu id="34">
+      <phrase id="menutext" value="ext npc function" />
+    </menu>
+    <menu id="35">
+      <phrase id="menutext" value="ext npc info" />
+    </menu>
+    <menu id="36">
+      <phrase id="menutext" value="ext npc shop hzxyx" />
+    </menu>
+    <menu id="37">
+      <phrase id="menutext" value="ext sam base info" />
+    </menu>
+    <menu id="38">
+      <phrase id="menutext" value="ext sam user info" />
+    </menu>
+    <menu id="39">
+      <phrase id="menutext" value="ext sell" />
+    </menu>
+    <menu id="40">
+      <phrase id="menutext" value="ext shdic info" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="ext shdic log" />
+    </menu>
+    <menu id="42">
+      <phrase id="menutext" value="ext simplecmd" />
+    </menu>
+    <menu id="43">
+      <phrase id="menutext" value="ext unioncity" />
+    </menu>
+    <menu id="44">
+      <phrase id="menutext" value="ext zbqh dj" />
+    </menu>
+    <menu id="45">
+      <phrase id="menutext" value="ext zbqh xx" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="global" />
+    </menu>
+    <menu id="47">
+      <phrase id="menutext" value="image" />
+    </menu>
+    <menu id="48">
+      <phrase id="menutext" value="javascript src" />
+    </menu>
+    <menu id="49">
+      <phrase id="menutext" value="ksdb user" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="messagetemplate" />
+    </menu>
+    <menu id="51">
+      <phrase id="menutext" value="monster model" />
+    </menu>
+    <menu id="52">
+      <phrase id="menutext" value="shared data" />
+    </menu>
+    <menu id="53">
+      <phrase id="menutext" value="shared permissions" />
+    </menu>
+    <menu id="54">
+      <phrase id="menutext" value="shield register" />
+    </menu>
+    <menu id="55">
+      <phrase id="menutext" value="skill register" />
+    </menu>
+    <menu id="56">
+      <phrase id="menutext" value="skillcontinued register" />
+    </menu>
+    <menu id="57">
+      <phrase id="menutext" value="system uattributes" />
+    </menu>
+    <menu id="58">
+      <phrase id="menutext" value="task register" />
+    </menu>
+    <menu id="59">
+      <phrase id="menutext" value="unioncontribution register" />
+    </menu>
+    <table id="basic_knapsack">
+      <phrase id="tblcaption" value="basic knapsack" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="Quantity" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="basic_user">
+      <phrase id="tblcaption" value="basic user" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="node">
+        <phrase id="fldcaption" value="Node" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_composite">
+      <phrase id="tblcaption" value="合成" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="produce">
+        <phrase id="fldcaption" value="Produce" />
+      </field>
+      <field id="consumegoods">
+        <phrase id="fldcaption" value="Consume Goods" />
+      </field>
+      <field id="consumegold">
+        <phrase id="fldcaption" value="Consume Gold" />
+      </field>
+      <field id="consumediamond">
+        <phrase id="fldcaption" value="Consume Diamond" />
+      </field>
+      <field id="success">
+        <phrase id="fldcaption" value="Success" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_decomposition">
+      <phrase id="tblcaption" value="分解" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="goods">
+        <phrase id="fldcaption" value="Goods" />
+      </field>
+      <field id="needg">
+        <phrase id="fldcaption" value="Need G" />
+      </field>
+      <field id="needd">
+        <phrase id="fldcaption" value="Need D" />
+      </field>
+      <field id="getgoods">
+        <phrase id="fldcaption" value="Get Goods" />
+      </field>
+      <field id="success">
+        <phrase id="fldcaption" value="Success" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_goods">
+      <phrase id="tblcaption" value="物品" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="basic">
+        <phrase id="fldcaption" value="Basic" />
+      </field>
+      <field id="_lock">
+        <phrase id="fldcaption" value="Lock" />
+      </field>
+      <field id="ltemdata">
+        <phrase id="fldcaption" value="Ltem Data" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_help">
+      <phrase id="tblcaption" value="config help" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="help">
+        <phrase id="fldcaption" value="Help" />
+      </field>
+      <field id="helpdata">
+        <phrase id="fldcaption" value="Help Data" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_map">
+      <phrase id="tblcaption" value="地图" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="_security">
+        <phrase id="fldcaption" value="Security" />
+      </field>
+      <field id="hid">
+        <phrase id="fldcaption" value="Hid" />
+      </field>
+      <field id="basis">
+        <phrase id="fldcaption" value="Basis" />
+      </field>
+      <field id="monster">
+        <phrase id="fldcaption" value="Monster" />
+      </field>
+      <field id="up">
+        <phrase id="fldcaption" value="UP" />
+      </field>
+      <field id="down">
+        <phrase id="fldcaption" value="Down" />
+      </field>
+      <field id="left">
+        <phrase id="fldcaption" value="Left" />
+      </field>
+      <field id="right">
+        <phrase id="fldcaption" value="Right" />
+      </field>
+      <field id="consume">
+        <phrase id="fldcaption" value="Consume" />
+      </field>
+      <field id="lv_up">
+        <phrase id="fldcaption" value="LV UP" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_monster">
+      <phrase id="tblcaption" value="config monster" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="monster_name">
+        <phrase id="fldcaption" value="Monster Name" />
+      </field>
+      <field id="monster_type">
+        <phrase id="fldcaption" value="Monster Type" />
+      </field>
+      <field id="monster_ad">
+        <phrase id="fldcaption" value="Monster AD" />
+      </field>
+      <field id="monster_ap">
+        <phrase id="fldcaption" value="Monster AP" />
+      </field>
+      <field id="monster_hp">
+        <phrase id="fldcaption" value="Monster HP" />
+      </field>
+      <field id="monster_defense">
+        <phrase id="fldcaption" value="Monster Defense" />
+      </field>
+      <field id="monster_absorbhp">
+        <phrase id="fldcaption" value="Monster Absorb HP" />
+      </field>
+      <field id="monster_adptv">
+        <phrase id="fldcaption" value="Monster ADPTV" />
+      </field>
+      <field id="monster_adptr">
+        <phrase id="fldcaption" value="Monster ADPTR" />
+      </field>
+      <field id="monster_apptr">
+        <phrase id="fldcaption" value="Monster APPTR" />
+      </field>
+      <field id="monster_apptv">
+        <phrase id="fldcaption" value="Monster APPTV" />
+      </field>
+      <field id="monster_immunedamage">
+        <phrase id="fldcaption" value="Monster Immune Damage" />
+      </field>
+      <field id="skills">
+        <phrase id="fldcaption" value="Skills" />
+      </field>
+      <field id="reward_goods">
+        <phrase id="fldcaption" value="Reward Goods" />
+      </field>
+      <field id="reward_exp">
+        <phrase id="fldcaption" value="Reward Exp" />
+      </field>
+      <field id="reward_gold">
+        <phrase id="fldcaption" value="Reward Gold" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="attackeffect">
+        <phrase id="fldcaption" value="Attack Effect" />
+      </field>
+      <field id="attacktips">
+        <phrase id="fldcaption" value="Attack Tips" />
+      </field>
+      <field id="magicresistance">
+        <phrase id="fldcaption" value="Magic Resistance" />
+      </field>
+      <field id="hit">
+        <phrase id="fldcaption" value="Hit" />
+      </field>
+      <field id="dodge">
+        <phrase id="fldcaption" value="Dodge" />
+      </field>
+      <field id="ignoreshield">
+        <phrase id="fldcaption" value="Ignore Shield" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_occupation">
+      <phrase id="tblcaption" value="职业" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="basics">
+        <phrase id="fldcaption" value="Basics" />
+      </field>
+      <field id="hp">
+        <phrase id="fldcaption" value="HP" />
+      </field>
+      <field id="mp">
+        <phrase id="fldcaption" value="MP" />
+      </field>
+      <field id="ad">
+        <phrase id="fldcaption" value="AD" />
+      </field>
+      <field id="ap">
+        <phrase id="fldcaption" value="AP" />
+      </field>
+      <field id="defense">
+        <phrase id="fldcaption" value="Defense" />
+      </field>
+      <field id="hit">
+        <phrase id="fldcaption" value="Hit" />
+      </field>
+      <field id="dodge">
+        <phrase id="fldcaption" value="Dodge" />
+      </field>
+      <field id="crit">
+        <phrase id="fldcaption" value="Crit" />
+      </field>
+      <field id="absorbhp">
+        <phrase id="fldcaption" value="Absorb HP" />
+      </field>
+      <field id="adptv">
+        <phrase id="fldcaption" value="ADPTV" />
+      </field>
+      <field id="adptr">
+        <phrase id="fldcaption" value="ADPTR" />
+      </field>
+      <field id="apptr">
+        <phrase id="fldcaption" value="APPTR" />
+      </field>
+      <field id="apptv">
+        <phrase id="fldcaption" value="APPTV" />
+      </field>
+      <field id="immunedamage">
+        <phrase id="fldcaption" value="Immune Damage" />
+      </field>
+      <field id="intro">
+        <phrase id="fldcaption" value="Intro" />
+      </field>
+      <field id="exclusiveskills">
+        <phrase id="fldcaption" value="Exclusive Skills" />
+      </field>
+      <field id="transferdemand">
+        <phrase id="fldcaption" value="Transfer Demand" />
+      </field>
+      <field id="transferlevel">
+        <phrase id="fldcaption" value="Transfer Level" />
+      </field>
+      <field id="formeroccupation">
+        <phrase id="fldcaption" value="Former Occupation" />
+      </field>
+      <field id="belong">
+        <phrase id="fldcaption" value="Belong" />
+      </field>
+      <field id="attackeffect">
+        <phrase id="fldcaption" value="Attack Effect" />
+      </field>
+      <field id="attacktips">
+        <phrase id="fldcaption" value="Attack Tips" />
+      </field>
+      <field id="magicresistance">
+        <phrase id="fldcaption" value="Magic Resistance" />
+      </field>
+      <field id="ignoreshield">
+        <phrase id="fldcaption" value="Ignore Shield" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_privateshops">
+      <phrase id="tblcaption" value="config privateshops" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="goodsdata">
+        <phrase id="fldcaption" value="Goods Data" />
+      </field>
+      <field id="open">
+        <phrase id="fldcaption" value="Open" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_ranks">
+      <phrase id="tblcaption" value="config ranks" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="member">
+        <phrase id="fldcaption" value="Member" />
+      </field>
+      <field id="goal">
+        <phrase id="fldcaption" value="Goal" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_shop">
+      <phrase id="tblcaption" value="config shop" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="currency">
+        <phrase id="fldcaption" value="Currency" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="Price" />
+      </field>
+      <field id="limitnumber">
+        <phrase id="fldcaption" value="Limit Number" />
+      </field>
+      <field id="limittype">
+        <phrase id="fldcaption" value="Limit Type" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_skills">
+      <phrase id="tblcaption" value="config skills" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="consume">
+        <phrase id="fldcaption" value="Consume" />
+      </field>
+      <field id="effect">
+        <phrase id="fldcaption" value="Effect" />
+      </field>
+      <field id="eo">
+        <phrase id="fldcaption" value="EO" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="consumetype">
+        <phrase id="fldcaption" value="Consume Type" />
+      </field>
+      <field id="cooling">
+        <phrase id="fldcaption" value="Cooling" />
+      </field>
+      <field id="accurate">
+        <phrase id="fldcaption" value="Accurate" />
+      </field>
+      <field id="attacktips">
+        <phrase id="fldcaption" value="Attack Tips" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="acs">
+        <phrase id="fldcaption" value="ACS" />
+      </field>
+      <field id="shield">
+        <phrase id="fldcaption" value="Shield" />
+      </field>
+      <field id="ignoreshield">
+        <phrase id="fldcaption" value="Ignore Shield" />
+      </field>
+      <field id="ignoreim">
+        <phrase id="fldcaption" value="Ignore IM" />
+      </field>
+      <field id="ignorere">
+        <phrase id="fldcaption" value="Ignore RE" />
+      </field>
+      <field id="banabsorb">
+        <phrase id="fldcaption" value="Ban Absorb" />
+      </field>
+      <field id="banmultipleshot">
+        <phrase id="fldcaption" value="Ban Multiple Shot" />
+      </field>
+      <field id="prohibituo">
+        <phrase id="fldcaption" value="Prohibit UO" />
+      </field>
+      <field id="consumablegoods">
+        <phrase id="fldcaption" value="Consumable Goods" />
+      </field>
+      <field id="continued_round">
+        <phrase id="fldcaption" value="Continued Round" />
+      </field>
+      <field id="continued_type">
+        <phrase id="fldcaption" value="Continued Type" />
+      </field>
+      <field id="continued_effect">
+        <phrase id="fldcaption" value="Continued Effect" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_special">
+      <phrase id="tblcaption" value="config special" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="condition">
+        <phrase id="fldcaption" value="Condition" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="effect">
+        <phrase id="fldcaption" value="Effect" />
+      </field>
+      <field id="cd">
+        <phrase id="fldcaption" value="CD" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_suit">
+      <phrase id="tblcaption" value="config suit" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="add_hp">
+        <phrase id="fldcaption" value="Add HP" />
+      </field>
+      <field id="add_mp">
+        <phrase id="fldcaption" value="Add MP" />
+      </field>
+      <field id="add_defense">
+        <phrase id="fldcaption" value="Add Defense" />
+      </field>
+      <field id="add_magic">
+        <phrase id="fldcaption" value="Add Magic" />
+      </field>
+      <field id="add_ad">
+        <phrase id="fldcaption" value="Add AD" />
+      </field>
+      <field id="add_ap">
+        <phrase id="fldcaption" value="Add AP" />
+      </field>
+      <field id="add_hit">
+        <phrase id="fldcaption" value="Add Hit" />
+      </field>
+      <field id="add_dodge">
+        <phrase id="fldcaption" value="Add Dodge" />
+      </field>
+      <field id="add_crit">
+        <phrase id="fldcaption" value="Add Crit" />
+      </field>
+      <field id="add_absorbhp">
+        <phrase id="fldcaption" value="Add Absorb HP" />
+      </field>
+      <field id="add_adptv">
+        <phrase id="fldcaption" value="Add ADPTV" />
+      </field>
+      <field id="add_adptr">
+        <phrase id="fldcaption" value="Add ADPTR" />
+      </field>
+      <field id="add_apptr">
+        <phrase id="fldcaption" value="Add APPTR" />
+      </field>
+      <field id="add_apptv">
+        <phrase id="fldcaption" value="Add APPTV" />
+      </field>
+      <field id="add_immunedamage">
+        <phrase id="fldcaption" value="Add Immune Damage" />
+      </field>
+      <field id="special_type">
+        <phrase id="fldcaption" value="Special Type" />
+      </field>
+      <field id="special_value">
+        <phrase id="fldcaption" value="Special Value" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_task">
+      <phrase id="tblcaption" value="config task" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="title">
+        <phrase id="fldcaption" value="Title" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="resettime">
+        <phrase id="fldcaption" value="Reset Time" />
+      </field>
+      <field id="resettype">
+        <phrase id="fldcaption" value="Reset Type" />
+      </field>
+      <field id="completetask">
+        <phrase id="fldcaption" value="Complete Task" />
+      </field>
+      <field id="occupation">
+        <phrase id="fldcaption" value="Occupation" />
+      </field>
+      <field id="target">
+        <phrase id="fldcaption" value="Target" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="reward_gold">
+        <phrase id="fldcaption" value="Reward Gold" />
+      </field>
+      <field id="reward_diamonds">
+        <phrase id="fldcaption" value="Reward Diamonds" />
+      </field>
+      <field id="reward_exp">
+        <phrase id="fldcaption" value="Reward EXP" />
+      </field>
+      <field id="reward_goods">
+        <phrase id="fldcaption" value="Reward Goods" />
+      </field>
+      <field id="info">
+        <phrase id="fldcaption" value="Info" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="config_union">
+      <phrase id="tblcaption" value="config union" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="exp">
+        <phrase id="fldcaption" value="EXP" />
+      </field>
+      <field id="needexp">
+        <phrase id="fldcaption" value="Need EXP" />
+      </field>
+      <field id="cdr">
+        <phrase id="fldcaption" value="CDR" />
+      </field>
+      <field id="limitlv">
+        <phrase id="fldcaption" value="Limit LV" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="customattributes_register">
+      <phrase id="tblcaption" value="customattributes register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="_sql">
+        <phrase id="fldcaption" value="SQL" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="dynamicattributes_register">
+      <phrase id="tblcaption" value="dynamicattributes register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="User" />
+      </field>
+      <field id="attname">
+        <phrase id="fldcaption" value="Att Name" />
+      </field>
+      <field id="attvalue">
+        <phrase id="fldcaption" value="Att Value" />
+      </field>
+      <field id="attinvalidtime">
+        <phrase id="fldcaption" value="Att Invalid Time" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="editor_attribute_adjustment">
+      <phrase id="tblcaption" value="editor attribute adjustment" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="uid">
+        <phrase id="fldcaption" value="u Id" />
+      </field>
+      <field id="aname">
+        <phrase id="fldcaption" value="a Name" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="equip_combined">
+      <phrase id="tblcaption" value="equip combined" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="suitname">
+        <phrase id="fldcaption" value="Suit Name" />
+      </field>
+      <field id="equipname">
+        <phrase id="fldcaption" value="Equip Name" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="equip_es_info">
+      <phrase id="tblcaption" value="equip es info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="xhjb">
+        <phrase id="fldcaption" value="XHJB" />
+      </field>
+      <field id="xhzs">
+        <phrase id="fldcaption" value="XHZS" />
+      </field>
+      <field id="xhwp">
+        <phrase id="fldcaption" value="XHWP" />
+      </field>
+      <field id="addsx">
+        <phrase id="fldcaption" value="ADDSX" />
+      </field>
+      <field id="successv">
+        <phrase id="fldcaption" value="Success V" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="equip_es_register">
+      <phrase id="tblcaption" value="equip es register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="qname">
+        <phrase id="fldcaption" value="QName" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="equip_register">
+      <phrase id="tblcaption" value="equip register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="User" />
+      </field>
+      <field id="slotname">
+        <phrase id="fldcaption" value="Slot Name" />
+      </field>
+      <field id="equipname">
+        <phrase id="fldcaption" value="Equip Name" />
+      </field>
+      <field id="add_hp">
+        <phrase id="fldcaption" value="Add HP" />
+      </field>
+      <field id="add_mp">
+        <phrase id="fldcaption" value="Add MP" />
+      </field>
+      <field id="add_defense">
+        <phrase id="fldcaption" value="Add Defense" />
+      </field>
+      <field id="add_magic">
+        <phrase id="fldcaption" value="Add Magic" />
+      </field>
+      <field id="add_ad">
+        <phrase id="fldcaption" value="Add AD" />
+      </field>
+      <field id="add_ap">
+        <phrase id="fldcaption" value="Add AP" />
+      </field>
+      <field id="add_hit">
+        <phrase id="fldcaption" value="Add Hit" />
+      </field>
+      <field id="add_dodge">
+        <phrase id="fldcaption" value="Add Dodge" />
+      </field>
+      <field id="add_crit">
+        <phrase id="fldcaption" value="Add Crit" />
+      </field>
+      <field id="add_absorbhp">
+        <phrase id="fldcaption" value="Add Absorb HP" />
+      </field>
+      <field id="add_adptv">
+        <phrase id="fldcaption" value="Add ADPTV" />
+      </field>
+      <field id="add_adptr">
+        <phrase id="fldcaption" value="Add ADPTR" />
+      </field>
+      <field id="add_apptr">
+        <phrase id="fldcaption" value="Add APPTR" />
+      </field>
+      <field id="add_apptv">
+        <phrase id="fldcaption" value="Add APPTV" />
+      </field>
+      <field id="add_immunedamage">
+        <phrase id="fldcaption" value="Add Immune Damage" />
+      </field>
+      <field id="special_type">
+        <phrase id="fldcaption" value="Special Type" />
+      </field>
+      <field id="special_value">
+        <phrase id="fldcaption" value="Special Value" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_addattr_log">
+      <phrase id="tblcaption" value="ext addattr log" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="fromqq">
+        <phrase id="fldcaption" value="from QQ" />
+      </field>
+      <field id="attrtitle">
+        <phrase id="fldcaption" value="attr Title" />
+      </field>
+      <field id="attrname">
+        <phrase id="fldcaption" value="attr Name" />
+      </field>
+      <field id="timestamp">
+        <phrase id="fldcaption" value="timestamp" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_awake_info">
+      <phrase id="tblcaption" value="ext awake info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="title_______unique">
+        <phrase id="fldcaption" value="title UNIQUE" />
+      </field>
+      <field id="basetitle">
+        <phrase id="fldcaption" value="base Title" />
+      </field>
+      <field id="isenable">
+        <phrase id="fldcaption" value="is Enable" />
+      </field>
+      <field id="needgold">
+        <phrase id="fldcaption" value="need Gold" />
+      </field>
+      <field id="needdiam">
+        <phrase id="fldcaption" value="need Diam" />
+      </field>
+      <field id="needitem">
+        <phrase id="fldcaption" value="need Item" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_bountytask_info">
+      <phrase id="tblcaption" value="ext bountytask info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="fromgroup____not_null">
+        <phrase id="fldcaption" value="from Group NOT NULL" />
+      </field>
+      <field id="fromqq_______not_null">
+        <phrase id="fldcaption" value="from QQ NOT NULL" />
+      </field>
+      <field id="taskname">
+        <phrase id="fldcaption" value="task Name" />
+      </field>
+      <field id="tasktype">
+        <phrase id="fldcaption" value="task Type" />
+      </field>
+      <field id="tasktarget">
+        <phrase id="fldcaption" value="task Target" />
+      </field>
+      <field id="taskcount">
+        <phrase id="fldcaption" value="task Count" />
+      </field>
+      <field id="taskreward">
+        <phrase id="fldcaption" value="task Reward" />
+      </field>
+      <field id="tasknotes">
+        <phrase id="fldcaption" value="task Notes" />
+      </field>
+      <field id="timestamp">
+        <phrase id="fldcaption" value="TIMESTAMP" />
+      </field>
+      <field id="endtime">
+        <phrase id="fldcaption" value="end Time" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_bountytask_log">
+      <phrase id="tblcaption" value="ext bountytask log" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="taskmode">
+        <phrase id="fldcaption" value="task Mode" />
+      </field>
+      <field id="fromqq_______not_null">
+        <phrase id="fldcaption" value="from QQ NOT NULL" />
+      </field>
+      <field id="taskid">
+        <phrase id="fldcaption" value="task Id" />
+      </field>
+      <field id="timestamp">
+        <phrase id="fldcaption" value="TIMESTAMP" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_building">
+      <phrase id="tblcaption" value="ext building" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="unionname">
+        <phrase id="fldcaption" value="union Name" />
+      </field>
+      <field id="location">
+        <phrase id="fldcaption" value="Location" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="trigger">
+        <phrase id="fldcaption" value="Trigger" />
+      </field>
+      <field id="tr_limit">
+        <phrase id="fldcaption" value="TR Limit" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_collection_function">
+      <phrase id="tblcaption" value="ext collection function" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="trigger">
+        <phrase id="fldcaption" value="Trigger" />
+      </field>
+      <field id="tr_limit">
+        <phrase id="fldcaption" value="TR Limit" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_collection_info">
+      <phrase id="tblcaption" value="ext collection info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="location">
+        <phrase id="fldcaption" value="Location" />
+      </field>
+      <field id="restype">
+        <phrase id="fldcaption" value="res Type" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_customvariable_info">
+      <phrase id="tblcaption" value="ext customvariable info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_goodsextattr">
+      <phrase id="tblcaption" value="ext goodsextattr" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="pricenum">
+        <phrase id="fldcaption" value="Price Num" />
+      </field>
+      <field id="pricetype">
+        <phrase id="fldcaption" value="Price Type" />
+      </field>
+      <field id="ud_qualitynum">
+        <phrase id="fldcaption" value="UD quality Num" />
+      </field>
+      <field id="ud_cat">
+        <phrase id="fldcaption" value="UD cat" />
+      </field>
+      <field id="ud_qualitytype">
+        <phrase id="fldcaption" value="UD quality Type" />
+      </field>
+      <field id="ud_kv4">
+        <phrase id="fldcaption" value="UD kv 4" />
+      </field>
+      <field id="ud_kv5">
+        <phrase id="fldcaption" value="UD kv 5" />
+      </field>
+      <field id="ud_kv6">
+        <phrase id="fldcaption" value="UD kv 6" />
+      </field>
+      <field id="ud_kv7">
+        <phrase id="fldcaption" value="UD kv 7" />
+      </field>
+      <field id="ud_kv8">
+        <phrase id="fldcaption" value="UD kv 8" />
+      </field>
+      <field id="ud_kv9">
+        <phrase id="fldcaption" value="UD kv 9" />
+      </field>
+      <field id="ud_kv10">
+        <phrase id="fldcaption" value="UD kv 10" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_npc_function">
+      <phrase id="tblcaption" value="ext npc function" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="trigger">
+        <phrase id="fldcaption" value="Trigger" />
+      </field>
+      <field id="tr_limit">
+        <phrase id="fldcaption" value="TR Limit" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_npc_info">
+      <phrase id="tblcaption" value="ext npc info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="location">
+        <phrase id="fldcaption" value="Location" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_npc_shop_hzxyx">
+      <phrase id="tblcaption" value="ext npc shop hzxyx" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="shopgoods">
+        <phrase id="fldcaption" value="Shop Goods" />
+      </field>
+      <field id="uptime">
+        <phrase id="fldcaption" value="Up Time" />
+      </field>
+      <field id="upspan">
+        <phrase id="fldcaption" value="Up Span" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_sam_base_info">
+      <phrase id="tblcaption" value="ext sam base info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="maincat">
+        <phrase id="fldcaption" value="Main Cat" />
+      </field>
+      <field id="subcat">
+        <phrase id="fldcaption" value="Sub Cat" />
+      </field>
+      <field id="location">
+        <phrase id="fldcaption" value="Location" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_sam_user_info">
+      <phrase id="tblcaption" value="ext sam user info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="maincat">
+        <phrase id="fldcaption" value="Main Cat" />
+      </field>
+      <field id="subcat">
+        <phrase id="fldcaption" value="Sub Cat" />
+      </field>
+      <field id="location">
+        <phrase id="fldcaption" value="Location" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="mastername">
+        <phrase id="fldcaption" value="Master Name" />
+      </field>
+      <field id="hp">
+        <phrase id="fldcaption" value="HP" />
+      </field>
+      <field id="max_hp">
+        <phrase id="fldcaption" value="MAX HP" />
+      </field>
+      <field id="ud1">
+        <phrase id="fldcaption" value="UD1" />
+      </field>
+      <field id="ud2">
+        <phrase id="fldcaption" value="UD2" />
+      </field>
+      <field id="ud3">
+        <phrase id="fldcaption" value="UD3" />
+      </field>
+      <field id="ud4">
+        <phrase id="fldcaption" value="UD4" />
+      </field>
+      <field id="ud5">
+        <phrase id="fldcaption" value="UD5" />
+      </field>
+      <field id="ud6">
+        <phrase id="fldcaption" value="UD6" />
+      </field>
+      <field id="ud7">
+        <phrase id="fldcaption" value="UD7" />
+      </field>
+      <field id="ud8">
+        <phrase id="fldcaption" value="UD8" />
+      </field>
+      <field id="ud9">
+        <phrase id="fldcaption" value="UD9" />
+      </field>
+      <field id="ud10">
+        <phrase id="fldcaption" value="UD10" />
+      </field>
+      <field id="ud11">
+        <phrase id="fldcaption" value="UD11" />
+      </field>
+      <field id="ud12">
+        <phrase id="fldcaption" value="UD12" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_sell">
+      <phrase id="tblcaption" value="ext sell" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="Price" />
+      </field>
+      <field id="pricetype">
+        <phrase id="fldcaption" value="Price Type" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_shdic_info">
+      <phrase id="tblcaption" value="ext shdic info" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="extid">
+        <phrase id="fldcaption" value="Ext Id" />
+      </field>
+      <field id="exttype">
+        <phrase id="fldcaption" value="Ext Type" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="location">
+        <phrase id="fldcaption" value="Location" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_shdic_log">
+      <phrase id="tblcaption" value="ext shdic log" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="extid">
+        <phrase id="fldcaption" value="Ext Id" />
+      </field>
+      <field id="exttype">
+        <phrase id="fldcaption" value="Ext Type" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="c">
+        <phrase id="fldcaption" value="C" />
+      </field>
+      <field id="k">
+        <phrase id="fldcaption" value="K" />
+      </field>
+      <field id="v">
+        <phrase id="fldcaption" value="V" />
+      </field>
+      <field id="trigger">
+        <phrase id="fldcaption" value="Trigger" />
+      </field>
+      <field id="tr_limit">
+        <phrase id="fldcaption" value="TR Limit" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_simplecmd">
+      <phrase id="tblcaption" value="ext simplecmd" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_unioncity">
+      <phrase id="tblcaption" value="ext unioncity" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="location">
+        <phrase id="fldcaption" value="Location" />
+      </field>
+      <field id="function">
+        <phrase id="fldcaption" value="Function" />
+      </field>
+      <field id="dialog">
+        <phrase id="fldcaption" value="Dialog" />
+      </field>
+      <field id="introduce">
+        <phrase id="fldcaption" value="Introduce" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_zbqh_dj">
+      <phrase id="tblcaption" value="ext zbqh dj" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="qname">
+        <phrase id="fldcaption" value="QName" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ext_zbqh_xx">
+      <phrase id="tblcaption" value="ext zbqh xx" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="lv">
+        <phrase id="fldcaption" value="LV" />
+      </field>
+      <field id="xhjb">
+        <phrase id="fldcaption" value="XHJB" />
+      </field>
+      <field id="xhzs">
+        <phrase id="fldcaption" value="XHZS" />
+      </field>
+      <field id="xhwp">
+        <phrase id="fldcaption" value="XHWP" />
+      </field>
+      <field id="addsx">
+        <phrase id="fldcaption" value="ADDSX" />
+      </field>
+      <field id="successv">
+        <phrase id="fldcaption" value="Success V" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="global">
+      <phrase id="tblcaption" value="global" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="section">
+        <phrase id="fldcaption" value="SECTION" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="DATA" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="image">
+      <phrase id="tblcaption" value="image" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="zoom">
+        <phrase id="fldcaption" value="Zoom" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="javascript_src">
+      <phrase id="tblcaption" value="javascript src" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="src">
+        <phrase id="fldcaption" value="Src" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="ksdb_user">
+      <phrase id="tblcaption" value="ksdb user" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="pinyin">
+        <phrase id="fldcaption" value="pinyin" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="password" />
+      </field>
+      <field id="avatar_small">
+        <phrase id="fldcaption" value="avatar small" />
+      </field>
+      <field id="avatar_normal">
+        <phrase id="fldcaption" value="avatar normal" />
+      </field>
+      <field id="level">
+        <phrase id="fldcaption" value="level" />
+      </field>
+      <field id="timeline">
+        <phrase id="fldcaption" value="timeline" />
+      </field>
+      <field id="settings">
+        <phrase id="fldcaption" value="settings" />
+      </field>
+      <field id="is_closed">
+        <phrase id="fldcaption" value="is closed" />
+      </field>
+      <field id="mobile">
+        <phrase id="fldcaption" value="mobile" />
+      </field>
+      <field id="tel">
+        <phrase id="fldcaption" value="tel" />
+      </field>
+      <field id="eid">
+        <phrase id="fldcaption" value="eid" />
+      </field>
+      <field id="weibo">
+        <phrase id="fldcaption" value="weibo" />
+      </field>
+      <field id="desp">
+        <phrase id="fldcaption" value="desp" />
+      </field>
+      <field id="groups">
+        <phrase id="fldcaption" value="groups" />
+      </field>
+    </table>
+    <table id="messagetemplate">
+      <phrase id="tblcaption" value="messagetemplate" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="monster_model">
+      <phrase id="tblcaption" value="monster model" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="node">
+        <phrase id="fldcaption" value="Node" />
+      </field>
+      <field id="item">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="shared_data">
+      <phrase id="tblcaption" value="shared data" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="section">
+        <phrase id="fldcaption" value="SECTION" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="DATA" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="shared_permissions">
+      <phrase id="tblcaption" value="shared permissions" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="power">
+        <phrase id="fldcaption" value="Power" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="shield_register">
+      <phrase id="tblcaption" value="shield register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="id_type">
+        <phrase id="fldcaption" value="ID Type" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+      <field id="gettime">
+        <phrase id="fldcaption" value="Get Time" />
+      </field>
+      <field id="duration">
+        <phrase id="fldcaption" value="Duration" />
+      </field>
+      <field id="pattern">
+        <phrase id="fldcaption" value="Pattern" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="skill_register">
+      <phrase id="tblcaption" value="skill register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="User" />
+      </field>
+      <field id="skillname">
+        <phrase id="fldcaption" value="Skill Name" />
+      </field>
+      <field id="proficiency">
+        <phrase id="fldcaption" value="Proficiency" />
+      </field>
+      <field id="lastusedate">
+        <phrase id="fldcaption" value="Last Use Date" />
+      </field>
+      <field id="occupation">
+        <phrase id="fldcaption" value="Occupation" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="skillcontinued_register">
+      <phrase id="tblcaption" value="skillcontinued register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="skill">
+        <phrase id="fldcaption" value="Skill" />
+      </field>
+      <field id="round">
+        <phrase id="fldcaption" value="Round" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="effect">
+        <phrase id="fldcaption" value="Effect" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="system_uattributes">
+      <phrase id="tblcaption" value="system uattributes" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="node">
+        <phrase id="fldcaption" value="Node" />
+      </field>
+      <field id="attrname">
+        <phrase id="fldcaption" value="Attr Name" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="task_register">
+      <phrase id="tblcaption" value="task register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="User" />
+      </field>
+      <field id="taskname">
+        <phrase id="fldcaption" value="Task Name" />
+      </field>
+      <field id="date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="target">
+        <phrase id="fldcaption" value="Target" />
+      </field>
+      <field id="data">
+        <phrase id="fldcaption" value="Data" />
+      </field>
+      <field id="complete">
+        <phrase id="fldcaption" value="Complete" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+    <table id="unioncontribution_register">
+      <phrase id="tblcaption" value="unioncontribution register" />
+      <field id="unid">
+        <phrase id="fldcaption" value="unid" />
+      </field>
+      <field id="u_id">
+        <phrase id="fldcaption" value="u id" />
+      </field>
+      <field id="acl_id">
+        <phrase id="fldcaption" value="acl id" />
+      </field>
+      <field id="unionname">
+        <phrase id="fldcaption" value="Union Name" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="User" />
+      </field>
+      <field id="date">
+        <phrase id="fldcaption" value="Date" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="DATETIME" />
+      </field>
+    </table>
+  </project>
+</ew-language>

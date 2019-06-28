@@ -1,0 +1,9 @@
+
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'343932363037323931', '39');
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'31393337343735363234', '32');
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'32333235393734333736', '32');
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'32303431393535313032', '32');
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'31343233313736393932', '32');
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'32333134303234323334', '30');
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'32313137393837313934', '30');
+INSERT INTO Shared_Permissions(acl_id,ID, Power)VALUES (110,'343138353835363838', '36');
