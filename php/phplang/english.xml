@@ -797,13 +797,13 @@
     <table id="basic_knapsack">
       <phrase id="tblcaption" value="basic knapsack" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -815,19 +815,19 @@
         <phrase id="fldcaption" value="Quantity" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="basic_user">
       <phrase id="tblcaption" value="basic user" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -842,19 +842,19 @@
         <phrase id="fldcaption" value="Data" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_composite">
       <phrase id="tblcaption" value="合成" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="produce">
         <phrase id="fldcaption" value="Produce" />
@@ -872,19 +872,19 @@
         <phrase id="fldcaption" value="Success" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_decomposition">
       <phrase id="tblcaption" value="分解" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="goods">
         <phrase id="fldcaption" value="Goods" />
@@ -902,19 +902,19 @@
         <phrase id="fldcaption" value="Success" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_goods">
       <phrase id="tblcaption" value="物品" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -938,19 +938,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_help">
       <phrase id="tblcaption" value="config help" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="help">
         <phrase id="fldcaption" value="Help" />
@@ -959,19 +959,19 @@
         <phrase id="fldcaption" value="Help Data" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_map">
       <phrase id="tblcaption" value="地图" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1013,19 +1013,19 @@
         <phrase id="fldcaption" value="LV UP" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_monster">
       <phrase id="tblcaption" value="config monster" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="monster_name">
         <phrase id="fldcaption" value="Monster Name" />
@@ -1097,112 +1097,112 @@
         <phrase id="fldcaption" value="Ignore Shield" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_occupation">
-      <phrase id="tblcaption" value="职业" />
+      <phrase id="tblcaption" value="职业配置表" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
-        <phrase id="fldcaption" value="Name" />
+        <phrase id="fldcaption" value="职业名称" />
       </field>
       <field id="basics">
         <phrase id="fldcaption" value="Basics" />
       </field>
       <field id="hp">
-        <phrase id="fldcaption" value="HP" />
+        <phrase id="fldcaption" value="提升生命 HP" />
       </field>
       <field id="mp">
-        <phrase id="fldcaption" value="MP" />
+        <phrase id="fldcaption" value="提升魔法 MP" />
       </field>
       <field id="ad">
-        <phrase id="fldcaption" value="AD" />
+        <phrase id="fldcaption" value="提升物攻 AD" />
       </field>
       <field id="ap">
-        <phrase id="fldcaption" value="AP" />
+        <phrase id="fldcaption" value="提升魔攻 AP" />
       </field>
       <field id="defense">
-        <phrase id="fldcaption" value="Defense" />
+        <phrase id="fldcaption" value="提升防御 Defense" />
       </field>
       <field id="hit">
-        <phrase id="fldcaption" value="Hit" />
+        <phrase id="fldcaption" value="提升命中 Hit" />
       </field>
       <field id="dodge">
-        <phrase id="fldcaption" value="Dodge" />
+        <phrase id="fldcaption" value="提升闪避 Dodge" />
       </field>
       <field id="crit">
-        <phrase id="fldcaption" value="Crit" />
+        <phrase id="fldcaption" value="提升暴击 Crit" />
       </field>
       <field id="absorbhp">
-        <phrase id="fldcaption" value="Absorb HP" />
+        <phrase id="fldcaption" value="吸血比 AbsorbHP" />
       </field>
       <field id="adptv">
-        <phrase id="fldcaption" value="ADPTV" />
+        <phrase id="fldcaption" value="物穿值 ADPTV" />
       </field>
       <field id="adptr">
-        <phrase id="fldcaption" value="ADPTR" />
+        <phrase id="fldcaption" value="物穿比 ADPTR" />
       </field>
       <field id="apptr">
-        <phrase id="fldcaption" value="APPTR" />
+        <phrase id="fldcaption" value="法穿比 APPTR" />
       </field>
       <field id="apptv">
-        <phrase id="fldcaption" value="APPTV" />
+        <phrase id="fldcaption" value="法穿值 APPTV" />
       </field>
       <field id="immunedamage">
-        <phrase id="fldcaption" value="Immune Damage" />
+        <phrase id="fldcaption" value="免伤比 ImmuneDamage" />
       </field>
       <field id="intro">
-        <phrase id="fldcaption" value="Intro" />
+        <phrase id="fldcaption" value="简介 Intro" />
       </field>
       <field id="exclusiveskills">
-        <phrase id="fldcaption" value="Exclusive Skills" />
+        <phrase id="fldcaption" value="技能 Exclusive Skills" />
       </field>
       <field id="transferdemand">
-        <phrase id="fldcaption" value="Transfer Demand" />
+        <phrase id="fldcaption" value="转职需求 Transfer Demand" />
       </field>
       <field id="transferlevel">
-        <phrase id="fldcaption" value="Transfer Level" />
+        <phrase id="fldcaption" value="转职等级 Transfer Level" />
       </field>
       <field id="formeroccupation">
-        <phrase id="fldcaption" value="Former Occupation" />
+        <phrase id="fldcaption" value="前置职业 Former Occupation" />
       </field>
       <field id="belong">
-        <phrase id="fldcaption" value="Belong" />
+        <phrase id="fldcaption" value="属于 Belong" />
       </field>
       <field id="attackeffect">
-        <phrase id="fldcaption" value="Attack Effect" />
+        <phrase id="fldcaption" value="攻击效果 Attack Effect" />
       </field>
       <field id="attacktips">
-        <phrase id="fldcaption" value="Attack Tips" />
+        <phrase id="fldcaption" value="攻击提示 Attack Tips" />
       </field>
       <field id="magicresistance">
-        <phrase id="fldcaption" value="Magic Resistance" />
+        <phrase id="fldcaption" value="魔抗 Magic Resistance" />
       </field>
       <field id="ignoreshield">
-        <phrase id="fldcaption" value="Ignore Shield" />
+        <phrase id="fldcaption" value="无视护盾 Ignore Shield" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_privateshops">
       <phrase id="tblcaption" value="config privateshops" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -1217,19 +1217,19 @@
         <phrase id="fldcaption" value="Open" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_ranks">
       <phrase id="tblcaption" value="config ranks" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -1244,19 +1244,19 @@
         <phrase id="fldcaption" value="Goal" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_shop">
       <phrase id="tblcaption" value="config shop" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1274,19 +1274,19 @@
         <phrase id="fldcaption" value="Limit Type" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_skills">
       <phrase id="tblcaption" value="config skills" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1358,19 +1358,19 @@
         <phrase id="fldcaption" value="Continued Effect" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_special">
       <phrase id="tblcaption" value="config special" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1388,19 +1388,19 @@
         <phrase id="fldcaption" value="CD" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_suit">
       <phrase id="tblcaption" value="config suit" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1457,19 +1457,19 @@
         <phrase id="fldcaption" value="Special Value" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_task">
       <phrase id="tblcaption" value="config task" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="title">
         <phrase id="fldcaption" value="Title" />
@@ -1514,19 +1514,19 @@
         <phrase id="fldcaption" value="Info" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="config_union">
       <phrase id="tblcaption" value="config union" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -1550,37 +1550,37 @@
         <phrase id="fldcaption" value="Data" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="customattributes_register">
       <phrase id="tblcaption" value="customattributes register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="_sql">
         <phrase id="fldcaption" value="SQL" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="dynamicattributes_register">
       <phrase id="tblcaption" value="dynamicattributes register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="user">
         <phrase id="fldcaption" value="User" />
@@ -1595,40 +1595,40 @@
         <phrase id="fldcaption" value="Att Invalid Time" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="editor_attribute_adjustment">
       <phrase id="tblcaption" value="editor attribute adjustment" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="uid">
-        <phrase id="fldcaption" value="u Id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="aname">
         <phrase id="fldcaption" value="a Name" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="equip_combined">
       <phrase id="tblcaption" value="equip combined" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="suitname">
         <phrase id="fldcaption" value="Suit Name" />
@@ -1637,19 +1637,19 @@
         <phrase id="fldcaption" value="Equip Name" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="equip_es_info">
       <phrase id="tblcaption" value="equip es info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1673,19 +1673,19 @@
         <phrase id="fldcaption" value="Success V" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="equip_es_register">
       <phrase id="tblcaption" value="equip es register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1697,19 +1697,19 @@
         <phrase id="fldcaption" value="LV" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="equip_register">
       <phrase id="tblcaption" value="equip register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="user">
         <phrase id="fldcaption" value="User" />
@@ -1772,19 +1772,19 @@
         <phrase id="fldcaption" value="Special Value" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_addattr_log">
       <phrase id="tblcaption" value="ext addattr log" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="fromqq">
         <phrase id="fldcaption" value="from QQ" />
@@ -1799,19 +1799,19 @@
         <phrase id="fldcaption" value="timestamp" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_awake_info">
       <phrase id="tblcaption" value="ext awake info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="title_______unique">
         <phrase id="fldcaption" value="title UNIQUE" />
@@ -1832,19 +1832,19 @@
         <phrase id="fldcaption" value="need Item" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_bountytask_info">
       <phrase id="tblcaption" value="ext bountytask info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="fromgroup____not_null">
         <phrase id="fldcaption" value="from Group NOT NULL" />
@@ -1877,19 +1877,19 @@
         <phrase id="fldcaption" value="end Time" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_bountytask_log">
       <phrase id="tblcaption" value="ext bountytask log" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="taskmode">
         <phrase id="fldcaption" value="task Mode" />
@@ -1904,19 +1904,19 @@
         <phrase id="fldcaption" value="TIMESTAMP" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_building">
       <phrase id="tblcaption" value="ext building" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1943,19 +1943,19 @@
         <phrase id="fldcaption" value="TR Limit" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_collection_function">
       <phrase id="tblcaption" value="ext collection function" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -1970,19 +1970,19 @@
         <phrase id="fldcaption" value="Function" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_collection_info">
       <phrase id="tblcaption" value="ext collection info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2003,19 +2003,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_customvariable_info">
       <phrase id="tblcaption" value="ext customvariable info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2033,19 +2033,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_goodsextattr">
       <phrase id="tblcaption" value="ext goodsextattr" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2087,19 +2087,19 @@
         <phrase id="fldcaption" value="UD kv 10" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_npc_function">
       <phrase id="tblcaption" value="ext npc function" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2114,19 +2114,19 @@
         <phrase id="fldcaption" value="Function" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_npc_info">
       <phrase id="tblcaption" value="ext npc info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2144,19 +2144,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_npc_shop_hzxyx">
       <phrase id="tblcaption" value="ext npc shop hzxyx" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2171,19 +2171,19 @@
         <phrase id="fldcaption" value="Up Span" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_sam_base_info">
       <phrase id="tblcaption" value="ext sam base info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2210,19 +2210,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_sam_user_info">
       <phrase id="tblcaption" value="ext sam user info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2294,19 +2294,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_sell">
       <phrase id="tblcaption" value="ext sell" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2318,19 +2318,19 @@
         <phrase id="fldcaption" value="Price Type" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_shdic_info">
       <phrase id="tblcaption" value="ext shdic info" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="extid">
         <phrase id="fldcaption" value="Ext Id" />
@@ -2354,19 +2354,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_shdic_log">
       <phrase id="tblcaption" value="ext shdic log" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="extid">
         <phrase id="fldcaption" value="Ext Id" />
@@ -2396,19 +2396,19 @@
         <phrase id="fldcaption" value="Function" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_simplecmd">
       <phrase id="tblcaption" value="ext simplecmd" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2426,19 +2426,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_unioncity">
       <phrase id="tblcaption" value="ext unioncity" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2456,19 +2456,19 @@
         <phrase id="fldcaption" value="Introduce" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_zbqh_dj">
       <phrase id="tblcaption" value="ext zbqh dj" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2480,19 +2480,19 @@
         <phrase id="fldcaption" value="LV" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ext_zbqh_xx">
       <phrase id="tblcaption" value="ext zbqh xx" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2516,19 +2516,19 @@
         <phrase id="fldcaption" value="Success V" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="global">
       <phrase id="tblcaption" value="global" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -2540,19 +2540,19 @@
         <phrase id="fldcaption" value="DATA" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="image">
       <phrase id="tblcaption" value="image" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -2564,19 +2564,19 @@
         <phrase id="fldcaption" value="Zoom" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="javascript_src">
       <phrase id="tblcaption" value="javascript src" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2585,7 +2585,7 @@
         <phrase id="fldcaption" value="Src" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="ksdb_user">
@@ -2645,13 +2645,13 @@
     <table id="messagetemplate">
       <phrase id="tblcaption" value="messagetemplate" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="name">
         <phrase id="fldcaption" value="Name" />
@@ -2660,19 +2660,19 @@
         <phrase id="fldcaption" value="Data" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="monster_model">
       <phrase id="tblcaption" value="monster model" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -2687,19 +2687,19 @@
         <phrase id="fldcaption" value="Data" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="shared_data">
       <phrase id="tblcaption" value="shared data" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -2711,19 +2711,19 @@
         <phrase id="fldcaption" value="DATA" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="shared_permissions">
       <phrase id="tblcaption" value="shared permissions" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -2732,19 +2732,19 @@
         <phrase id="fldcaption" value="Power" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="shield_register">
       <phrase id="tblcaption" value="shield register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -2765,19 +2765,19 @@
         <phrase id="fldcaption" value="Pattern" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="skill_register">
       <phrase id="tblcaption" value="skill register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="user">
         <phrase id="fldcaption" value="User" />
@@ -2795,19 +2795,19 @@
         <phrase id="fldcaption" value="Occupation" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="skillcontinued_register">
       <phrase id="tblcaption" value="skillcontinued register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="id">
         <phrase id="fldcaption" value="ID" />
@@ -2825,19 +2825,19 @@
         <phrase id="fldcaption" value="Effect" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="system_uattributes">
       <phrase id="tblcaption" value="system uattributes" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="node">
         <phrase id="fldcaption" value="Node" />
@@ -2846,19 +2846,19 @@
         <phrase id="fldcaption" value="Attr Name" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="task_register">
       <phrase id="tblcaption" value="task register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="user">
         <phrase id="fldcaption" value="User" />
@@ -2879,19 +2879,19 @@
         <phrase id="fldcaption" value="Complete" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
     <table id="unioncontribution_register">
       <phrase id="tblcaption" value="unioncontribution register" />
       <field id="unid">
-        <phrase id="fldcaption" value="unid" />
+        <phrase id="fldcaption" value="UNID" />
       </field>
       <field id="u_id">
-        <phrase id="fldcaption" value="u id" />
+        <phrase id="fldcaption" value="用户id" />
       </field>
       <field id="acl_id">
-        <phrase id="fldcaption" value="acl id" />
+        <phrase id="fldcaption" value="权限ID" />
       </field>
       <field id="unionname">
         <phrase id="fldcaption" value="Union Name" />
@@ -2903,7 +2903,7 @@
         <phrase id="fldcaption" value="Date" />
       </field>
       <field id="datetime">
-        <phrase id="fldcaption" value="DATETIME" />
+        <phrase id="fldcaption" value="更新时间" />
       </field>
     </table>
   </project>
