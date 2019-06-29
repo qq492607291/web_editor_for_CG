@@ -407,7 +407,7 @@ class cconfig_goods_list extends cconfig_goods {
 		$this->Name->SetVisibility();
 		$this->Type->SetVisibility();
 		$this->Basic->SetVisibility();
-		$this->_Lock->SetVisibility();
+		$this->Lock->SetVisibility();
 		$this->LtemData->SetVisibility();
 		$this->Introduce->SetVisibility();
 
@@ -742,7 +742,7 @@ class cconfig_goods_list extends cconfig_goods {
 		$sFilterList = ew_Concat($sFilterList, $this->Name->AdvancedSearch->ToJson(), ","); // Field Name
 		$sFilterList = ew_Concat($sFilterList, $this->Type->AdvancedSearch->ToJson(), ","); // Field Type
 		$sFilterList = ew_Concat($sFilterList, $this->Basic->AdvancedSearch->ToJson(), ","); // Field Basic
-		$sFilterList = ew_Concat($sFilterList, $this->_Lock->AdvancedSearch->ToJson(), ","); // Field _Lock
+		$sFilterList = ew_Concat($sFilterList, $this->Lock->AdvancedSearch->ToJson(), ","); // Field Lock
 		$sFilterList = ew_Concat($sFilterList, $this->LtemData->AdvancedSearch->ToJson(), ","); // Field LtemData
 		$sFilterList = ew_Concat($sFilterList, $this->Introduce->AdvancedSearch->ToJson(), ","); // Field Introduce
 		$sFilterList = ew_Concat($sFilterList, $this->DATETIME->AdvancedSearch->ToJson(), ","); // Field DATETIME
@@ -846,13 +846,13 @@ class cconfig_goods_list extends cconfig_goods {
 		$this->Basic->AdvancedSearch->SearchOperator2 = @$filter["w_Basic"];
 		$this->Basic->AdvancedSearch->Save();
 
-		// Field _Lock
-		$this->_Lock->AdvancedSearch->SearchValue = @$filter["x__Lock"];
-		$this->_Lock->AdvancedSearch->SearchOperator = @$filter["z__Lock"];
-		$this->_Lock->AdvancedSearch->SearchCondition = @$filter["v__Lock"];
-		$this->_Lock->AdvancedSearch->SearchValue2 = @$filter["y__Lock"];
-		$this->_Lock->AdvancedSearch->SearchOperator2 = @$filter["w__Lock"];
-		$this->_Lock->AdvancedSearch->Save();
+		// Field Lock
+		$this->Lock->AdvancedSearch->SearchValue = @$filter["xLock"];
+		$this->Lock->AdvancedSearch->SearchOperator = @$filter["zLock"];
+		$this->Lock->AdvancedSearch->SearchCondition = @$filter["vLock"];
+		$this->Lock->AdvancedSearch->SearchValue2 = @$filter["yLock"];
+		$this->Lock->AdvancedSearch->SearchOperator2 = @$filter["wLock"];
+		$this->Lock->AdvancedSearch->Save();
 
 		// Field LtemData
 		$this->LtemData->AdvancedSearch->SearchValue = @$filter["x_LtemData"];
@@ -888,7 +888,7 @@ class cconfig_goods_list extends cconfig_goods {
 		$this->BuildBasicSearchSQL($sWhere, $this->Name, $arKeywords, $type);
 		$this->BuildBasicSearchSQL($sWhere, $this->Type, $arKeywords, $type);
 		$this->BuildBasicSearchSQL($sWhere, $this->Basic, $arKeywords, $type);
-		$this->BuildBasicSearchSQL($sWhere, $this->_Lock, $arKeywords, $type);
+		$this->BuildBasicSearchSQL($sWhere, $this->Lock, $arKeywords, $type);
 		$this->BuildBasicSearchSQL($sWhere, $this->LtemData, $arKeywords, $type);
 		$this->BuildBasicSearchSQL($sWhere, $this->Introduce, $arKeywords, $type);
 		return $sWhere;
@@ -1041,7 +1041,7 @@ class cconfig_goods_list extends cconfig_goods {
 			$this->UpdateSort($this->Name); // Name
 			$this->UpdateSort($this->Type); // Type
 			$this->UpdateSort($this->Basic); // Basic
-			$this->UpdateSort($this->_Lock); // _Lock
+			$this->UpdateSort($this->Lock); // Lock
 			$this->UpdateSort($this->LtemData); // LtemData
 			$this->UpdateSort($this->Introduce); // Introduce
 			$this->setStartRecordNumber(1); // Reset start position
@@ -1080,7 +1080,7 @@ class cconfig_goods_list extends cconfig_goods {
 				$this->Name->setSort("");
 				$this->Type->setSort("");
 				$this->Basic->setSort("");
-				$this->_Lock->setSort("");
+				$this->Lock->setSort("");
 				$this->LtemData->setSort("");
 				$this->Introduce->setSort("");
 			}
@@ -1543,7 +1543,7 @@ class cconfig_goods_list extends cconfig_goods {
 		$this->Name->setDbValue($row['Name']);
 		$this->Type->setDbValue($row['Type']);
 		$this->Basic->setDbValue($row['Basic']);
-		$this->_Lock->setDbValue($row['_Lock']);
+		$this->Lock->setDbValue($row['Lock']);
 		$this->LtemData->setDbValue($row['LtemData']);
 		$this->Introduce->setDbValue($row['Introduce']);
 		$this->DATETIME->setDbValue($row['DATETIME']);
@@ -1559,7 +1559,7 @@ class cconfig_goods_list extends cconfig_goods {
 		$row['Name'] = NULL;
 		$row['Type'] = NULL;
 		$row['Basic'] = NULL;
-		$row['_Lock'] = NULL;
+		$row['Lock'] = NULL;
 		$row['LtemData'] = NULL;
 		$row['Introduce'] = NULL;
 		$row['DATETIME'] = NULL;
@@ -1578,7 +1578,7 @@ class cconfig_goods_list extends cconfig_goods {
 		$this->Name->DbValue = $row['Name'];
 		$this->Type->DbValue = $row['Type'];
 		$this->Basic->DbValue = $row['Basic'];
-		$this->_Lock->DbValue = $row['_Lock'];
+		$this->Lock->DbValue = $row['Lock'];
 		$this->LtemData->DbValue = $row['LtemData'];
 		$this->Introduce->DbValue = $row['Introduce'];
 		$this->DATETIME->DbValue = $row['DATETIME'];
@@ -1629,7 +1629,7 @@ class cconfig_goods_list extends cconfig_goods {
 		// Name
 		// Type
 		// Basic
-		// _Lock
+		// Lock
 		// LtemData
 		// Introduce
 		// DATETIME
@@ -1652,9 +1652,9 @@ class cconfig_goods_list extends cconfig_goods {
 		$this->Basic->ViewValue = $this->Basic->CurrentValue;
 		$this->Basic->ViewCustomAttributes = "";
 
-		// _Lock
-		$this->_Lock->ViewValue = $this->_Lock->CurrentValue;
-		$this->_Lock->ViewCustomAttributes = "";
+		// Lock
+		$this->Lock->ViewValue = $this->Lock->CurrentValue;
+		$this->Lock->ViewCustomAttributes = "";
 
 		// LtemData
 		$this->LtemData->ViewValue = $this->LtemData->CurrentValue;
@@ -1684,10 +1684,10 @@ class cconfig_goods_list extends cconfig_goods {
 			$this->Basic->HrefValue = "";
 			$this->Basic->TooltipValue = "";
 
-			// _Lock
-			$this->_Lock->LinkCustomAttributes = "";
-			$this->_Lock->HrefValue = "";
-			$this->_Lock->TooltipValue = "";
+			// Lock
+			$this->Lock->LinkCustomAttributes = "";
+			$this->Lock->HrefValue = "";
+			$this->Lock->TooltipValue = "";
 
 			// LtemData
 			$this->LtemData->LinkCustomAttributes = "";
@@ -2037,12 +2037,12 @@ $config_goods_list->ListOptions->Render("header", "left");
 		</div></div></th>
 	<?php } ?>
 <?php } ?>
-<?php if ($config_goods->_Lock->Visible) { // _Lock ?>
-	<?php if ($config_goods->SortUrl($config_goods->_Lock) == "") { ?>
-		<th data-name="_Lock" class="<?php echo $config_goods->_Lock->HeaderCellClass() ?>"><div id="elh_config_goods__Lock" class="config_goods__Lock"><div class="ewTableHeaderCaption"><?php echo $config_goods->_Lock->FldCaption() ?></div></div></th>
+<?php if ($config_goods->Lock->Visible) { // Lock ?>
+	<?php if ($config_goods->SortUrl($config_goods->Lock) == "") { ?>
+		<th data-name="Lock" class="<?php echo $config_goods->Lock->HeaderCellClass() ?>"><div id="elh_config_goodsLock" class="config_goodsLock"><div class="ewTableHeaderCaption"><?php echo $config_goods->Lock->FldCaption() ?></div></div></th>
 	<?php } else { ?>
-		<th data-name="_Lock" class="<?php echo $config_goods->_Lock->HeaderCellClass() ?>"><div class="ewPointer" onclick="ew_Sort(event,'<?php echo $config_goods->SortUrl($config_goods->_Lock) ?>',1);"><div id="elh_config_goods__Lock" class="config_goods__Lock">
-			<div class="ewTableHeaderBtn"><span class="ewTableHeaderCaption"><?php echo $config_goods->_Lock->FldCaption() ?><?php echo $Language->Phrase("SrchLegend") ?></span><span class="ewTableHeaderSort"><?php if ($config_goods->_Lock->getSort() == "ASC") { ?><span class="caret ewSortUp"></span><?php } elseif ($config_goods->_Lock->getSort() == "DESC") { ?><span class="caret"></span><?php } ?></span></div>
+		<th data-name="Lock" class="<?php echo $config_goods->Lock->HeaderCellClass() ?>"><div class="ewPointer" onclick="ew_Sort(event,'<?php echo $config_goods->SortUrl($config_goods->Lock) ?>',1);"><div id="elh_config_goodsLock" class="config_goodsLock">
+			<div class="ewTableHeaderBtn"><span class="ewTableHeaderCaption"><?php echo $config_goods->Lock->FldCaption() ?><?php echo $Language->Phrase("SrchLegend") ?></span><span class="ewTableHeaderSort"><?php if ($config_goods->Lock->getSort() == "ASC") { ?><span class="caret ewSortUp"></span><?php } elseif ($config_goods->Lock->getSort() == "DESC") { ?><span class="caret"></span><?php } ?></span></div>
 		</div></div></th>
 	<?php } ?>
 <?php } ?>
@@ -2161,11 +2161,11 @@ $config_goods_list->ListOptions->Render("body", "left", $config_goods_list->RowC
 </span>
 </td>
 	<?php } ?>
-	<?php if ($config_goods->_Lock->Visible) { // _Lock ?>
-		<td data-name="_Lock"<?php echo $config_goods->_Lock->CellAttributes() ?>>
-<span id="el<?php echo $config_goods_list->RowCnt ?>_config_goods__Lock" class="config_goods__Lock">
-<span<?php echo $config_goods->_Lock->ViewAttributes() ?>>
-<?php echo $config_goods->_Lock->ListViewValue() ?></span>
+	<?php if ($config_goods->Lock->Visible) { // Lock ?>
+		<td data-name="Lock"<?php echo $config_goods->Lock->CellAttributes() ?>>
+<span id="el<?php echo $config_goods_list->RowCnt ?>_config_goodsLock" class="config_goodsLock">
+<span<?php echo $config_goods->Lock->ViewAttributes() ?>>
+<?php echo $config_goods->Lock->ListViewValue() ?></span>
 </span>
 </td>
 	<?php } ?>

@@ -326,7 +326,7 @@ class cconfig_goods_add extends cconfig_goods {
 		$this->Name->SetVisibility();
 		$this->Type->SetVisibility();
 		$this->Basic->SetVisibility();
-		$this->_Lock->SetVisibility();
+		$this->Lock->SetVisibility();
 		$this->LtemData->SetVisibility();
 		$this->Introduce->SetVisibility();
 		$this->DATETIME->SetVisibility();
@@ -545,8 +545,8 @@ class cconfig_goods_add extends cconfig_goods {
 		$this->Type->OldValue = $this->Type->CurrentValue;
 		$this->Basic->CurrentValue = NULL;
 		$this->Basic->OldValue = $this->Basic->CurrentValue;
-		$this->_Lock->CurrentValue = NULL;
-		$this->_Lock->OldValue = $this->_Lock->CurrentValue;
+		$this->Lock->CurrentValue = NULL;
+		$this->Lock->OldValue = $this->Lock->CurrentValue;
 		$this->LtemData->CurrentValue = NULL;
 		$this->LtemData->OldValue = $this->LtemData->CurrentValue;
 		$this->Introduce->CurrentValue = NULL;
@@ -578,8 +578,8 @@ class cconfig_goods_add extends cconfig_goods {
 		if (!$this->Basic->FldIsDetailKey) {
 			$this->Basic->setFormValue($objForm->GetValue("x_Basic"));
 		}
-		if (!$this->_Lock->FldIsDetailKey) {
-			$this->_Lock->setFormValue($objForm->GetValue("x__Lock"));
+		if (!$this->Lock->FldIsDetailKey) {
+			$this->Lock->setFormValue($objForm->GetValue("xLock"));
 		}
 		if (!$this->LtemData->FldIsDetailKey) {
 			$this->LtemData->setFormValue($objForm->GetValue("x_LtemData"));
@@ -602,7 +602,7 @@ class cconfig_goods_add extends cconfig_goods {
 		$this->Name->CurrentValue = $this->Name->FormValue;
 		$this->Type->CurrentValue = $this->Type->FormValue;
 		$this->Basic->CurrentValue = $this->Basic->FormValue;
-		$this->_Lock->CurrentValue = $this->_Lock->FormValue;
+		$this->Lock->CurrentValue = $this->Lock->FormValue;
 		$this->LtemData->CurrentValue = $this->LtemData->FormValue;
 		$this->Introduce->CurrentValue = $this->Introduce->FormValue;
 		$this->DATETIME->CurrentValue = $this->DATETIME->FormValue;
@@ -649,7 +649,7 @@ class cconfig_goods_add extends cconfig_goods {
 		$this->Name->setDbValue($row['Name']);
 		$this->Type->setDbValue($row['Type']);
 		$this->Basic->setDbValue($row['Basic']);
-		$this->_Lock->setDbValue($row['_Lock']);
+		$this->Lock->setDbValue($row['Lock']);
 		$this->LtemData->setDbValue($row['LtemData']);
 		$this->Introduce->setDbValue($row['Introduce']);
 		$this->DATETIME->setDbValue($row['DATETIME']);
@@ -666,7 +666,7 @@ class cconfig_goods_add extends cconfig_goods {
 		$row['Name'] = $this->Name->CurrentValue;
 		$row['Type'] = $this->Type->CurrentValue;
 		$row['Basic'] = $this->Basic->CurrentValue;
-		$row['_Lock'] = $this->_Lock->CurrentValue;
+		$row['Lock'] = $this->Lock->CurrentValue;
 		$row['LtemData'] = $this->LtemData->CurrentValue;
 		$row['Introduce'] = $this->Introduce->CurrentValue;
 		$row['DATETIME'] = $this->DATETIME->CurrentValue;
@@ -685,7 +685,7 @@ class cconfig_goods_add extends cconfig_goods {
 		$this->Name->DbValue = $row['Name'];
 		$this->Type->DbValue = $row['Type'];
 		$this->Basic->DbValue = $row['Basic'];
-		$this->_Lock->DbValue = $row['_Lock'];
+		$this->Lock->DbValue = $row['Lock'];
 		$this->LtemData->DbValue = $row['LtemData'];
 		$this->Introduce->DbValue = $row['Introduce'];
 		$this->DATETIME->DbValue = $row['DATETIME'];
@@ -730,7 +730,7 @@ class cconfig_goods_add extends cconfig_goods {
 		// Name
 		// Type
 		// Basic
-		// _Lock
+		// Lock
 		// LtemData
 		// Introduce
 		// DATETIME
@@ -761,9 +761,9 @@ class cconfig_goods_add extends cconfig_goods {
 		$this->Basic->ViewValue = $this->Basic->CurrentValue;
 		$this->Basic->ViewCustomAttributes = "";
 
-		// _Lock
-		$this->_Lock->ViewValue = $this->_Lock->CurrentValue;
-		$this->_Lock->ViewCustomAttributes = "";
+		// Lock
+		$this->Lock->ViewValue = $this->Lock->CurrentValue;
+		$this->Lock->ViewCustomAttributes = "";
 
 		// LtemData
 		$this->LtemData->ViewValue = $this->LtemData->CurrentValue;
@@ -808,10 +808,10 @@ class cconfig_goods_add extends cconfig_goods {
 			$this->Basic->HrefValue = "";
 			$this->Basic->TooltipValue = "";
 
-			// _Lock
-			$this->_Lock->LinkCustomAttributes = "";
-			$this->_Lock->HrefValue = "";
-			$this->_Lock->TooltipValue = "";
+			// Lock
+			$this->Lock->LinkCustomAttributes = "";
+			$this->Lock->HrefValue = "";
+			$this->Lock->TooltipValue = "";
 
 			// LtemData
 			$this->LtemData->LinkCustomAttributes = "";
@@ -865,11 +865,11 @@ class cconfig_goods_add extends cconfig_goods {
 			$this->Basic->EditValue = ew_HtmlEncode($this->Basic->CurrentValue);
 			$this->Basic->PlaceHolder = ew_RemoveHtml($this->Basic->FldCaption());
 
-			// _Lock
-			$this->_Lock->EditAttrs["class"] = "form-control";
-			$this->_Lock->EditCustomAttributes = "";
-			$this->_Lock->EditValue = ew_HtmlEncode($this->_Lock->CurrentValue);
-			$this->_Lock->PlaceHolder = ew_RemoveHtml($this->_Lock->FldCaption());
+			// Lock
+			$this->Lock->EditAttrs["class"] = "form-control";
+			$this->Lock->EditCustomAttributes = "";
+			$this->Lock->EditValue = ew_HtmlEncode($this->Lock->CurrentValue);
+			$this->Lock->PlaceHolder = ew_RemoveHtml($this->Lock->FldCaption());
 
 			// LtemData
 			$this->LtemData->EditAttrs["class"] = "form-control";
@@ -915,9 +915,9 @@ class cconfig_goods_add extends cconfig_goods {
 			$this->Basic->LinkCustomAttributes = "";
 			$this->Basic->HrefValue = "";
 
-			// _Lock
-			$this->_Lock->LinkCustomAttributes = "";
-			$this->_Lock->HrefValue = "";
+			// Lock
+			$this->Lock->LinkCustomAttributes = "";
+			$this->Lock->HrefValue = "";
 
 			// LtemData
 			$this->LtemData->LinkCustomAttributes = "";
@@ -973,8 +973,8 @@ class cconfig_goods_add extends cconfig_goods {
 		if (!$this->Basic->FldIsDetailKey && !is_null($this->Basic->FormValue) && $this->Basic->FormValue == "") {
 			ew_AddMessage($gsFormError, str_replace("%s", $this->Basic->FldCaption(), $this->Basic->ReqErrMsg));
 		}
-		if (!$this->_Lock->FldIsDetailKey && !is_null($this->_Lock->FormValue) && $this->_Lock->FormValue == "") {
-			ew_AddMessage($gsFormError, str_replace("%s", $this->_Lock->FldCaption(), $this->_Lock->ReqErrMsg));
+		if (!$this->Lock->FldIsDetailKey && !is_null($this->Lock->FormValue) && $this->Lock->FormValue == "") {
+			ew_AddMessage($gsFormError, str_replace("%s", $this->Lock->FldCaption(), $this->Lock->ReqErrMsg));
 		}
 		if (!$this->LtemData->FldIsDetailKey && !is_null($this->LtemData->FormValue) && $this->LtemData->FormValue == "") {
 			ew_AddMessage($gsFormError, str_replace("%s", $this->LtemData->FldCaption(), $this->LtemData->ReqErrMsg));
@@ -1030,8 +1030,8 @@ class cconfig_goods_add extends cconfig_goods {
 		// Basic
 		$this->Basic->SetDbValueDef($rsnew, $this->Basic->CurrentValue, "", FALSE);
 
-		// _Lock
-		$this->_Lock->SetDbValueDef($rsnew, $this->_Lock->CurrentValue, "", FALSE);
+		// Lock
+		$this->Lock->SetDbValueDef($rsnew, $this->Lock->CurrentValue, "", FALSE);
 
 		// LtemData
 		$this->LtemData->SetDbValueDef($rsnew, $this->LtemData->CurrentValue, "", FALSE);
@@ -1230,9 +1230,9 @@ fconfig_goodsadd.Validate = function() {
 			elm = this.GetElements("x" + infix + "_Basic");
 			if (elm && !ew_IsHidden(elm) && !ew_HasValue(elm))
 				return this.OnError(elm, "<?php echo ew_JsEncode2(str_replace("%s", $config_goods->Basic->FldCaption(), $config_goods->Basic->ReqErrMsg)) ?>");
-			elm = this.GetElements("x" + infix + "__Lock");
+			elm = this.GetElements("x" + infix + "_Lock");
 			if (elm && !ew_IsHidden(elm) && !ew_HasValue(elm))
-				return this.OnError(elm, "<?php echo ew_JsEncode2(str_replace("%s", $config_goods->_Lock->FldCaption(), $config_goods->_Lock->ReqErrMsg)) ?>");
+				return this.OnError(elm, "<?php echo ew_JsEncode2(str_replace("%s", $config_goods->Lock->FldCaption(), $config_goods->Lock->ReqErrMsg)) ?>");
 			elm = this.GetElements("x" + infix + "_LtemData");
 			if (elm && !ew_IsHidden(elm) && !ew_HasValue(elm))
 				return this.OnError(elm, "<?php echo ew_JsEncode2(str_replace("%s", $config_goods->LtemData->FldCaption(), $config_goods->LtemData->ReqErrMsg)) ?>");
@@ -1353,14 +1353,14 @@ $config_goods_add->ShowMessage();
 <?php echo $config_goods->Basic->CustomMsg ?></div></div>
 	</div>
 <?php } ?>
-<?php if ($config_goods->_Lock->Visible) { // _Lock ?>
-	<div id="r__Lock" class="form-group">
-		<label id="elh_config_goods__Lock" for="x__Lock" class="<?php echo $config_goods_add->LeftColumnClass ?>"><?php echo $config_goods->_Lock->FldCaption() ?><?php echo $Language->Phrase("FieldRequiredIndicator") ?></label>
-		<div class="<?php echo $config_goods_add->RightColumnClass ?>"><div<?php echo $config_goods->_Lock->CellAttributes() ?>>
-<span id="el_config_goods__Lock">
-<textarea data-table="config_goods" data-field="x__Lock" name="x__Lock" id="x__Lock" cols="35" rows="4" placeholder="<?php echo ew_HtmlEncode($config_goods->_Lock->getPlaceHolder()) ?>"<?php echo $config_goods->_Lock->EditAttributes() ?>><?php echo $config_goods->_Lock->EditValue ?></textarea>
+<?php if ($config_goods->Lock->Visible) { // Lock ?>
+	<div id="r_Lock" class="form-group">
+		<label id="elh_config_goods_Lock" for="x_Lock" class="<?php echo $config_goods_add->LeftColumnClass ?>"><?php echo $config_goods->Lock->FldCaption() ?><?php echo $Language->Phrase("FieldRequiredIndicator") ?></label>
+		<div class="<?php echo $config_goods_add->RightColumnClass ?>"><div<?php echo $config_goods->Lock->CellAttributes() ?>>
+<span id="el_config_goods_Lock">
+<textarea data-table="config_goods" data-field="x_Lock" name="x_Lock" id="x_Lock" cols="35" rows="4" placeholder="<?php echo ew_HtmlEncode($config_goods->Lock->getPlaceHolder()) ?>"<?php echo $config_goods->Lock->EditAttributes() ?>><?php echo $config_goods->Lock->EditValue ?></textarea>
 </span>
-<?php echo $config_goods->_Lock->CustomMsg ?></div></div>
+<?php echo $config_goods->Lock->CustomMsg ?></div></div>
 	</div>
 <?php } ?>
 <?php if ($config_goods->LtemData->Visible) { // LtemData ?>

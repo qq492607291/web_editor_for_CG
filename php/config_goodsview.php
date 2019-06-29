@@ -384,7 +384,7 @@ class cconfig_goods_view extends cconfig_goods {
 		$this->Name->SetVisibility();
 		$this->Type->SetVisibility();
 		$this->Basic->SetVisibility();
-		$this->_Lock->SetVisibility();
+		$this->Lock->SetVisibility();
 		$this->LtemData->SetVisibility();
 		$this->Introduce->SetVisibility();
 		$this->DATETIME->SetVisibility();
@@ -656,7 +656,7 @@ class cconfig_goods_view extends cconfig_goods {
 		$this->Name->setDbValue($row['Name']);
 		$this->Type->setDbValue($row['Type']);
 		$this->Basic->setDbValue($row['Basic']);
-		$this->_Lock->setDbValue($row['_Lock']);
+		$this->Lock->setDbValue($row['Lock']);
 		$this->LtemData->setDbValue($row['LtemData']);
 		$this->Introduce->setDbValue($row['Introduce']);
 		$this->DATETIME->setDbValue($row['DATETIME']);
@@ -672,7 +672,7 @@ class cconfig_goods_view extends cconfig_goods {
 		$row['Name'] = NULL;
 		$row['Type'] = NULL;
 		$row['Basic'] = NULL;
-		$row['_Lock'] = NULL;
+		$row['Lock'] = NULL;
 		$row['LtemData'] = NULL;
 		$row['Introduce'] = NULL;
 		$row['DATETIME'] = NULL;
@@ -691,7 +691,7 @@ class cconfig_goods_view extends cconfig_goods {
 		$this->Name->DbValue = $row['Name'];
 		$this->Type->DbValue = $row['Type'];
 		$this->Basic->DbValue = $row['Basic'];
-		$this->_Lock->DbValue = $row['_Lock'];
+		$this->Lock->DbValue = $row['Lock'];
 		$this->LtemData->DbValue = $row['LtemData'];
 		$this->Introduce->DbValue = $row['Introduce'];
 		$this->DATETIME->DbValue = $row['DATETIME'];
@@ -720,7 +720,7 @@ class cconfig_goods_view extends cconfig_goods {
 		// Name
 		// Type
 		// Basic
-		// _Lock
+		// Lock
 		// LtemData
 		// Introduce
 		// DATETIME
@@ -755,9 +755,9 @@ class cconfig_goods_view extends cconfig_goods {
 		$this->Basic->ViewValue = $this->Basic->CurrentValue;
 		$this->Basic->ViewCustomAttributes = "";
 
-		// _Lock
-		$this->_Lock->ViewValue = $this->_Lock->CurrentValue;
-		$this->_Lock->ViewCustomAttributes = "";
+		// Lock
+		$this->Lock->ViewValue = $this->Lock->CurrentValue;
+		$this->Lock->ViewCustomAttributes = "";
 
 		// LtemData
 		$this->LtemData->ViewValue = $this->LtemData->CurrentValue;
@@ -807,10 +807,10 @@ class cconfig_goods_view extends cconfig_goods {
 			$this->Basic->HrefValue = "";
 			$this->Basic->TooltipValue = "";
 
-			// _Lock
-			$this->_Lock->LinkCustomAttributes = "";
-			$this->_Lock->HrefValue = "";
-			$this->_Lock->TooltipValue = "";
+			// Lock
+			$this->Lock->LinkCustomAttributes = "";
+			$this->Lock->HrefValue = "";
+			$this->Lock->TooltipValue = "";
 
 			// LtemData
 			$this->LtemData->LinkCustomAttributes = "";
@@ -1086,13 +1086,13 @@ $config_goods_view->ShowMessage();
 </td>
 	</tr>
 <?php } ?>
-<?php if ($config_goods->_Lock->Visible) { // _Lock ?>
-	<tr id="r__Lock">
-		<td class="col-sm-2"><span id="elh_config_goods__Lock"><?php echo $config_goods->_Lock->FldCaption() ?></span></td>
-		<td data-name="_Lock"<?php echo $config_goods->_Lock->CellAttributes() ?>>
-<span id="el_config_goods__Lock">
-<span<?php echo $config_goods->_Lock->ViewAttributes() ?>>
-<?php echo $config_goods->_Lock->ViewValue ?></span>
+<?php if ($config_goods->Lock->Visible) { // Lock ?>
+	<tr id="r_Lock">
+		<td class="col-sm-2"><span id="elh_config_goods_Lock"><?php echo $config_goods->Lock->FldCaption() ?></span></td>
+		<td data-name="Lock"<?php echo $config_goods->Lock->CellAttributes() ?>>
+<span id="el_config_goods_Lock">
+<span<?php echo $config_goods->Lock->ViewAttributes() ?>>
+<?php echo $config_goods->Lock->ViewValue ?></span>
 </span>
 </td>
 	</tr>

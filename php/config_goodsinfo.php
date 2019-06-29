@@ -14,7 +14,7 @@ class cconfig_goods extends cTable {
 	var $Name;
 	var $Type;
 	var $Basic;
-	var $_Lock;
+	var $Lock;
 	var $LtemData;
 	var $Introduce;
 	var $DATETIME;
@@ -89,10 +89,10 @@ class cconfig_goods extends cTable {
 		$this->Basic->Sortable = TRUE; // Allow sort
 		$this->fields['Basic'] = &$this->Basic;
 
-		// _Lock
-		$this->_Lock = new cField('config_goods', 'config_goods', 'x__Lock', '_Lock', '`_Lock`', '`_Lock`', 201, -1, FALSE, '`_Lock`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXTAREA');
-		$this->_Lock->Sortable = TRUE; // Allow sort
-		$this->fields['_Lock'] = &$this->_Lock;
+		// Lock
+		$this->Lock = new cField('config_goods', 'config_goods', 'x_Lock', 'Lock', '`Lock`', '`Lock`', 201, -1, FALSE, '`Lock`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXTAREA');
+		$this->Lock->Sortable = TRUE; // Allow sort
+		$this->fields['Lock'] = &$this->Lock;
 
 		// LtemData
 		$this->LtemData = new cField('config_goods', 'config_goods', 'x_LtemData', 'LtemData', '`LtemData`', '`LtemData`', 201, -1, FALSE, '`LtemData`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXTAREA');
@@ -643,7 +643,7 @@ class cconfig_goods extends cTable {
 		$this->Name->setDbValue($rs->fields('Name'));
 		$this->Type->setDbValue($rs->fields('Type'));
 		$this->Basic->setDbValue($rs->fields('Basic'));
-		$this->_Lock->setDbValue($rs->fields('_Lock'));
+		$this->Lock->setDbValue($rs->fields('Lock'));
 		$this->LtemData->setDbValue($rs->fields('LtemData'));
 		$this->Introduce->setDbValue($rs->fields('Introduce'));
 		$this->DATETIME->setDbValue($rs->fields('DATETIME'));
@@ -664,7 +664,7 @@ class cconfig_goods extends cTable {
 		// Name
 		// Type
 		// Basic
-		// _Lock
+		// Lock
 		// LtemData
 		// Introduce
 		// DATETIME
@@ -697,9 +697,9 @@ class cconfig_goods extends cTable {
 		$this->Basic->ViewValue = $this->Basic->CurrentValue;
 		$this->Basic->ViewCustomAttributes = "";
 
-		// _Lock
-		$this->_Lock->ViewValue = $this->_Lock->CurrentValue;
-		$this->_Lock->ViewCustomAttributes = "";
+		// Lock
+		$this->Lock->ViewValue = $this->Lock->CurrentValue;
+		$this->Lock->ViewCustomAttributes = "";
 
 		// LtemData
 		$this->LtemData->ViewValue = $this->LtemData->CurrentValue;
@@ -749,10 +749,10 @@ class cconfig_goods extends cTable {
 		$this->Basic->HrefValue = "";
 		$this->Basic->TooltipValue = "";
 
-		// _Lock
-		$this->_Lock->LinkCustomAttributes = "";
-		$this->_Lock->HrefValue = "";
-		$this->_Lock->TooltipValue = "";
+		// Lock
+		$this->Lock->LinkCustomAttributes = "";
+		$this->Lock->HrefValue = "";
+		$this->Lock->TooltipValue = "";
 
 		// LtemData
 		$this->LtemData->LinkCustomAttributes = "";
@@ -825,11 +825,11 @@ class cconfig_goods extends cTable {
 		$this->Basic->EditValue = $this->Basic->CurrentValue;
 		$this->Basic->PlaceHolder = ew_RemoveHtml($this->Basic->FldCaption());
 
-		// _Lock
-		$this->_Lock->EditAttrs["class"] = "form-control";
-		$this->_Lock->EditCustomAttributes = "";
-		$this->_Lock->EditValue = $this->_Lock->CurrentValue;
-		$this->_Lock->PlaceHolder = ew_RemoveHtml($this->_Lock->FldCaption());
+		// Lock
+		$this->Lock->EditAttrs["class"] = "form-control";
+		$this->Lock->EditCustomAttributes = "";
+		$this->Lock->EditValue = $this->Lock->CurrentValue;
+		$this->Lock->PlaceHolder = ew_RemoveHtml($this->Lock->FldCaption());
 
 		// LtemData
 		$this->LtemData->EditAttrs["class"] = "form-control";
@@ -883,7 +883,7 @@ class cconfig_goods extends cTable {
 					if ($this->Name->Exportable) $Doc->ExportCaption($this->Name);
 					if ($this->Type->Exportable) $Doc->ExportCaption($this->Type);
 					if ($this->Basic->Exportable) $Doc->ExportCaption($this->Basic);
-					if ($this->_Lock->Exportable) $Doc->ExportCaption($this->_Lock);
+					if ($this->Lock->Exportable) $Doc->ExportCaption($this->Lock);
 					if ($this->LtemData->Exportable) $Doc->ExportCaption($this->LtemData);
 					if ($this->Introduce->Exportable) $Doc->ExportCaption($this->Introduce);
 					if ($this->DATETIME->Exportable) $Doc->ExportCaption($this->DATETIME);
@@ -926,7 +926,7 @@ class cconfig_goods extends cTable {
 						if ($this->Name->Exportable) $Doc->ExportField($this->Name);
 						if ($this->Type->Exportable) $Doc->ExportField($this->Type);
 						if ($this->Basic->Exportable) $Doc->ExportField($this->Basic);
-						if ($this->_Lock->Exportable) $Doc->ExportField($this->_Lock);
+						if ($this->Lock->Exportable) $Doc->ExportField($this->Lock);
 						if ($this->LtemData->Exportable) $Doc->ExportField($this->LtemData);
 						if ($this->Introduce->Exportable) $Doc->ExportField($this->Introduce);
 						if ($this->DATETIME->Exportable) $Doc->ExportField($this->DATETIME);
