@@ -1391,7 +1391,7 @@ class cconfig_occupation_list extends cconfig_occupation {
 		// "edit2" ks add
 		//EditUrl  config_occupationedit.php?unid=10002
 		$tmpEdit2Url =str_replace('?unid', '&unid', $this->EditUrl);
-		$tmpEdit2Url ='api.php?c='. $tmpEdit2Url;
+		$tmpEdit2Url ='../lp3k/api.php?c='. $tmpEdit2Url;
 		$oListOpt->Body .= "<a class=\"ewRowLink ewEdit\" title=\"EDIT New\" data-caption=\"" . ew_HtmlTitle($Language->Phrase("EditLink")) . "\" href=\"" . ew_HtmlEncode($tmpEdit2Url) . "\"> EDIT New </a>";
 
 

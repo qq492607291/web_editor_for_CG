@@ -112,7 +112,6 @@ var ewVar = <?php echo json_encode($EW_CLIENT_VAR); ?>;
 
 // Write your client script here, no need to add script tags.
 </script>
-<meta name="generator" content="PHPMaker v2018.0.6">
 </head>
 <body class="<?php echo $EW_BODY_CLASS ?>" dir="<?php echo ($EW_CSS_FLIP) ? "rtl" : "ltr" ?>">
 <?php if (@!$gbSkipHeaderFooter) { ?>
@@ -124,7 +123,7 @@ var ewVar = <?php echo json_encode($EW_CLIENT_VAR); ?>;
 			<!-- mini logo for sidebar mini 50x50 pixels -->
 			<span class="logo-mini"></span>
 			<!-- logo for regular state and mobile devices -->
-			<span class="logo-lg">PHPMaker 2018</span>
+			<span class="logo-lg">web编辑器 for CG</span>
 		</div>
 		<!-- Header Navbar -->
 		<nav class="navbar navbar-static-top" role="navigation">
